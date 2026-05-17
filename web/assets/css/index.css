@@ -21,9 +21,6 @@
     --white: #e8eaf0;
     --font: 'Caveat', cursive;
     --mono: 'Share Tech Mono', monospace;
-}
-
-:root {
     --track-color: #e2e8f0;
     --thumb-color: #ff006a;
     --scrollbar-width: 15px;
@@ -45,7 +42,6 @@ body::-webkit-scrollbar-track {
     background-color: var(--track-color);
 }
 
-
 /* Firefox */
 @supports not selector(::-webkit-scrollbar) {
     * {
@@ -61,7 +57,6 @@ html {
 }
 
 body {
-    /* font-family: var(--font); */
     min-height: 100vh;
     background: linear-gradient(180deg, #0e141a 0%, #16202b 100%);
     display: flex;
@@ -333,7 +328,6 @@ section {
 }
 
 .tag {
-    /* font-family: var(--font); */
     font-size: 1.05rem;
     padding: .35rem 1rem;
     border-radius: 999px;
@@ -380,7 +374,6 @@ footer {
 }
 
 .footer-links {
-    /* font-family: var(--font); */
     font-size: 1.1rem;
     color: var(--gray);
     margin-top: 20px;

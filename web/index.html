@@ -1,0 +1,186 @@
+<!-- Hello :) -> https://github.com/Ballwictb -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BESUR — Vibrant Theme for VS Code &amp; Open VSX</title>
+    <meta name="description"
+        content="A vibrant color theme for VS Code and Open VSX. Dark, Soft and Light variants. By Ballwictb." />
+    <meta name="author" content="Ballwictb" />
+    <meta property="og:title" content="BESUR Theme" />
+    <meta property="og:description" content="Vibrant neon color theme for VS Code &amp; Open VSX." />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+</head>
+
+
+<body>
+
+    <!-- top color bar -->
+    <div class="color-bar" aria-hidden="true">
+        <span style="background:#ff006a"></span>
+        <span style="background:#f5af19"></span>
+        <span style="background:#aaed36"></span>
+        <span style="background:#44dfff"></span>
+        <span style="background:#6e7d9a"></span>
+    </div>
+
+    <!-- lang switcher -->
+    <div class="lang-row">
+        <button class="lang-btn active" data-lang="es" aria-label="Español">ES</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+    </div>
+
+    <!-- hero -->
+    <main>
+        <section class="hero">
+
+            <!-- house + sun doodle -->
+            <div class="fade-up d1">
+                <img src="./images/icon.gif" alt="icon besur themes">
+            </div>
+
+            <!-- title -->
+            <div class="fade-up d2">
+                <h1 class="hero-title">BESUR</h1>
+                <svg viewBox="0 0 220 14" width="220" height="14" aria-hidden="true"
+                    style="display:block;margin:6px auto 0;overflow:visible">
+                    <path d="M4 8 Q30 4 55 9 Q90 14 120 7 Q155 2 185 8 Q200 11 216 6" stroke="#ff006a"
+                        stroke-width="3.5" fill="none" stroke-linecap="round" />
+                </svg>
+            </div>
+
+            <!-- tagline -->
+            <p class="hero-sub fade-up d3 font-caveat">
+                <span id="tagline"></span><br>
+                <span id="taglineSub"></span>
+            </p>
+
+            <!-- buttons -->
+            <div class="btn-row fade-up d4">
+                <a id="btn-install" class="btn btn-primary font-normal"
+                    href="https://open-vsx.org/extension/Ballwictb/besur-themes" target="_blank"
+                    rel="noopener noreferrer"></a>
+                <a id="btn-install" class="btn btn-primary font-normal"
+                    href="https://open-vsx.org/extension/Ballwictb/besur-themes" target="_blank"
+                    rel="noopener noreferrer">open-vsx</a>
+                <a id="btn-github" class="btn btn-ghost font-normal" href="https://github.com/Ballwictb/besur-themes"
+                    target="_blank" rel="noopener noreferrer"></a>
+            </div>
+
+            <!-- preview selector -->
+            <div class="selector-wrap fade-up d5">
+
+                <!-- theme pills -->
+                <div class="pill-row">
+                    <button class="pill active-theme font-caveat" data-theme="besur">BESUR</button>
+                    <button class="pill font-caveat" data-theme="besur-soft">BESUR Soft</button>
+                    <button class="pill font-caveat" data-theme="besur-light">BESUR Light</button>
+                </div>
+
+                <!-- lang pills -->
+                <div class="pill-row">
+                    <button class="pill active-lang" data-code="js">JavaScript</button>
+                    <button class="pill" data-code="python">Python</button>
+                    <button class="pill" data-code="sql">SQL</button>
+                    <button class="pill" data-code="xml">XML</button>
+                    <button class="pill" data-code="yaml">YAML</button>
+                    <button class="pill" data-code="rust">Rust</button>
+                </div>
+
+                <!-- code window -->
+                <div id="code-window" class="code-window">
+                    <div id="code-topbar" class="code-topbar">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yel"></span>
+                        <span class="dot dot-grn"></span>
+                        <span id="code-filename" class="code-filename">index.js</span>
+                    </div>
+                    <pre id="code-body" class="code-body"></pre>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- languages section -->
+        <section>
+            <h2 class="section-title" id="sec-langs"></h2>
+            <svg viewBox="0 0 200 12" width="200" height="12" aria-hidden="true"
+                style="display:block;margin:4px auto 0;overflow:visible">
+                <path d="M4 7 Q40 3 80 8 Q120 13 160 6 Q180 3 196 7" stroke="#44dfff" stroke-width="3" fill="none"
+                    stroke-linecap="round" />
+            </svg>
+            <p class="section-desc font-caveat" id="sec-langs-desc"></p>
+            <div class="tags">
+                <span class="tag">JavaScript</span><span class="tag">TypeScript</span>
+                <span class="tag">JSX / TSX</span><span class="tag">Python</span>
+                <span class="tag">Rust</span><span class="tag">Go</span>
+                <span class="tag">PHP</span><span class="tag">Java</span>
+                <span class="tag">C / C++</span><span class="tag">SQL</span>
+                <span class="tag">XML</span><span class="tag">YAML</span>
+                <span class="tag">TOML</span><span class="tag">JSON</span>
+                <span class="tag">HTML</span><span class="tag">CSS / SCSS</span>
+                <span class="tag">Markdown</span><span class="tag">Bash</span>
+                <span class="tag">Dockerfile</span><span class="tag">GraphQL</span>
+                <span class="tag">Prisma</span>
+            </div>
+        </section>
+
+        <!-- variants section -->
+        <section>
+            <h2 class="section-title" id="sec-variants"></h2>
+            <svg viewBox="0 0 180 12" width="180" height="12" aria-hidden="true"
+                style="display:block;margin:4px auto 0;overflow:visible">
+                <path d="M4 8 Q36 3 72 8 Q108 13 144 6 Q162 3 176 8" stroke="#aaed36" stroke-width="3" fill="none"
+                    stroke-linecap="round" />
+            </svg>
+            <div class="cards">
+                <div class="card" data-variant="0"
+                    style="background:#0e141a;border:2px solid rgba(255,0,106,.25);box-shadow:0 0 24px rgba(255,0,106,.1)">
+                    <div class="card-name" style="color:#ff006a"></div>
+                    <div class="card-desc" style="color:#6e7d9a"></div>
+                </div>
+                <div class="card" data-variant="1"
+                    style="background:#141c25;border:2px solid rgba(224,0,94,.25);box-shadow:0 0 24px rgba(224,0,94,.1)">
+                    <div class="card-name" style="color:#e0005e"></div>
+                    <div class="card-desc" style="color:#6e7d9a"></div>
+                </div>
+                <div class="card" data-variant="2"
+                    style="background:#f8fafc;border:2px solid rgba(204,0,85,.25);box-shadow:0 0 24px rgba(204,0,85,.06)">
+                    <div class="card-name" style="color:#cc0055"></div>
+                    <div class="card-desc" style="color:#4a5568"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <p class="footer-links">
+            <span id="footer-by"></span>
+            <a href="https://github.com/Ballwictb" target="_blank" rel="noopener noreferrer"> Ballwictb</a>
+            &nbsp;·&nbsp;
+            <a id="footer-repo" href="https://github.com/Ballwictb/besur-themes" target="_blank"
+                rel="noopener noreferrer"></a>
+            &nbsp;·&nbsp;
+            <a id="footer-issue" href="https://github.com/Ballwictb/besur-themes/issues/new" target="_blank"
+                rel="noopener noreferrer"></a>
+        </p>
+        <p class="footer-license" id="footer-license"></p>
+    </footer>
+    <div class="color-bar" aria-hidden="true">
+        <span style="background:#6e7d9a"></span>
+        <span style="background:#44dfff"></span>
+        <span style="background:#aaed36"></span>
+        <span style="background:#f5af19"></span>
+        <span style="background:#ff006a"></span>
+    </div>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,472 @@
+/* Hello :) -> https://github.com/Ballwictb */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Share+Tech+Mono&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg: #0e141a;
+    --surface: #16202b;
+    --pink: #ff006a;
+    --cyan: #44dfff;
+    --green: #aaed36;
+    --yellow: #f5af19;
+    --gray: #6e7d9a;
+    --white: #e8eaf0;
+    --font: 'Caveat', cursive;
+    --mono: 'Share Tech Mono', monospace;
+}
+
+:root {
+    --track-color: #e2e8f0;
+    --thumb-color: #ff006a;
+    --scrollbar-width: 15px;
+    --scrollbar-radius: 3px;
+    --scrollbar-width-moz: thin;
+}
+
+/* Chrome, Edge, Safari */
+body::-webkit-scrollbar {
+    width: var(--scrollbar-width);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--thumb-color);
+    border-radius: var(--scrollbar-radius);
+}
+
+body::-webkit-scrollbar-track {
+    background-color: var(--track-color);
+}
+
+
+/* Firefox */
+@supports not selector(::-webkit-scrollbar) {
+    * {
+        scrollbar-width: var(--scrollbar-width-moz);
+        scrollbar-color: var(--thumb-color) var(--track-color);
+    }
+}
+
+html {
+    background: var(--bg);
+    color: var(--white);
+    scroll-behavior: smooth;
+}
+
+body {
+    /* font-family: var(--font); */
+    min-height: 100vh;
+    background: linear-gradient(180deg, #0e141a 0%, #16202b 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+body::selection {
+    background-color: #cf055b;
+    color: #f8f8fd;
+}
+
+.font-caveat {
+    font-family: var(--font);
+}
+
+.font-normal {
+    font-family: "Avenir Next", -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* ── color bar ─────────────────────────────────────────────────── */
+.color-bar {
+    display: flex;
+    height: 6px;
+    width: 100%;
+}
+
+.color-bar span {
+    flex: 1;
+}
+
+/* ── lang switcher ─────────────────────────────────────────────── */
+.lang-row {
+    display: flex;
+    justify-content: flex-end;
+    padding: 14px 24px 0;
+}
+
+.lang-btn {
+    font-family: var(--font);
+    font-size: 1.1rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--gray);
+    padding: 2px 6px;
+    transition: color 150ms;
+}
+
+.lang-btn.active {
+    color: var(--pink);
+    font-weight: 700;
+}
+
+.lang-sep {
+    color: var(--gray);
+    font-size: 1.1rem;
+    line-height: 1;
+    align-self: center;
+    padding: 0 2px;
+}
+
+/* ── hero ──────────────────────────────────────────────────────── */
+.hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 32px 16px 48px;
+    gap: 24px;
+}
+
+.logo-svg {
+    width: 160px;
+    height: 160px;
+}
+
+.hero-title {
+    font-family: var(--font);
+    font-size: clamp(4rem, 12vw, 7rem);
+    font-weight: 700;
+    color: var(--white);
+    letter-spacing: .04em;
+    line-height: 1;
+}
+
+.scribble-wrap {
+    position: relative;
+    display: inline-block;
+}
+
+.scribble-wrap svg {
+    display: block;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.hero-sub {
+    font-size: clamp(1.25rem, 3vw, 1.6rem);
+    color: var(--gray);
+    max-width: 500px;
+    line-height: 1.5;
+}
+
+.hero-sub span {
+    color: var(--cyan);
+}
+
+/* ── buttons ───────────────────────────────────────────────────── */
+.btn-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+}
+
+.btn {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: .55rem 1.8rem;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 180ms, box-shadow 180ms;
+    display: inline-block;
+}
+
+.btn:hover {
+    transform: scale(1.06);
+}
+
+.btn-primary {
+    background: rgba(255, 0, 106, .8);
+    color: #fff;
+    border: 2.5px solid var(--pink);
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 24px #ff006a88;
+}
+
+.btn-ghost {
+    background: transparent;
+    color: var(--gray);
+    border: 2.5px solid rgba(110, 125, 154, .35);
+}
+
+/* ── theme + lang selector ────────────────────────────────────── */
+.selector-wrap {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.pill-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.pill {
+    font-size: 1.1rem;
+    padding: .3rem 1rem;
+    border-radius: 999px;
+    background: transparent;
+    color: var(--gray);
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 180ms;
+}
+
+.pill.active-theme {
+    color: var(--pink);
+    background: rgba(255, 0, 106, .12);
+    border-color: rgba(255, 0, 106, .5);
+}
+
+.pill.active-lang {
+    color: var(--white);
+    background: rgba(255, 255, 255, .07);
+}
+
+/* ── code preview ─────────────────────────────────────────────── */
+.code-window {
+    border-radius: 16px;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0 0 40px rgba(255, 0, 106, .1);
+    transition: background 300ms;
+}
+
+.code-topbar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-red {
+    background: var(--pink);
+}
+
+.dot-yel {
+    background: var(--yellow);
+}
+
+.dot-grn {
+    background: var(--green);
+}
+
+.code-filename {
+    font-family: var(--mono);
+    font-size: .85rem;
+    margin-left: 8px;
+    opacity: .65;
+}
+
+.code-body {
+    padding: 20px;
+    font-family: var(--mono);
+    font-size: .9rem;
+    line-height: 1.65;
+    overflow-x: auto;
+    white-space: pre;
+    transition: background 300ms, color 300ms;
+}
+
+/* ── sections ─────────────────────────────────────────────────── */
+section {
+    padding: 64px 16px;
+    text-align: center;
+}
+
+.section-title {
+    font-family: var(--font);
+    font-size: clamp(1.8rem, 5vw, 2.6rem);
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 4px;
+}
+
+.section-desc {
+    font-size: 1.2rem;
+    color: var(--gray);
+    margin: 12px auto 36px;
+    max-width: 520px;
+}
+
+/* language tags */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.tag {
+    /* font-family: var(--font); */
+    font-size: 1.05rem;
+    padding: .35rem 1rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, .04);
+    border: 1.5px solid rgba(255, 255, 255, .08);
+    color: var(--gray);
+}
+
+/* variant cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 820px;
+    margin: 32px auto 0;
+}
+
+.card {
+    flex: 1;
+    min-width: 200px;
+    max-width: 260px;
+    border-radius: 18px;
+    padding: 24px 22px;
+    text-align: left;
+}
+
+.card-name {
+    font-family: var(--font);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.card-desc {
+    font-family: var(--font);
+    font-size: 1.1rem;
+}
+
+/* ── footer ────────────────────────────────────────────────────── */
+footer {
+    text-align: center;
+    padding: 40px 16px;
+}
+
+.footer-links {
+    /* font-family: var(--font); */
+    font-size: 1.1rem;
+    color: var(--gray);
+    margin-top: 20px;
+}
+
+.footer-links a {
+    color: #93a9d4;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-license {
+    font-family: var(--font);
+    font-size: .95rem;
+    color: rgba(110, 125, 154, .4);
+    margin-top: 8px;
+}
+
+/* ── animations ────────────────────────────────────────────────── */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(14px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-up {
+    opacity: 0;
+    animation: fadeUp .9s ease forwards;
+}
+
+.d1 {
+    animation-delay: .0s;
+}
+
+.d2 {
+    animation-delay: .15s;
+}
+
+.d3 {
+    animation-delay: .3s;
+}
+
+.d4 {
+    animation-delay: .45s;
+}
+
+.d5 {
+    animation-delay: .6s;
+}
+
+/* ── sun blink ─────────────────────────────────────────────────── */
+@keyframes sunBlink {
+
+    0%,
+    45%,
+    55%,
+    100% {
+        opacity: 1;
+    }
+
+    48%,
+    52% {
+        opacity: .08;
+    }
+}
+
+.sun-group {
+    animation: sunBlink 2.8s ease-in-out infinite;
+}
+
+/* ── responsive ────────────────────────────────────────────────── */
+@media (max-width: 600px) {
+    .card {
+        min-width: 160px;
+    }
+
+    .code-body {
+        font-size: .78rem;
+    }
+}

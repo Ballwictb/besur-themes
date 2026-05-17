@@ -1,0 +1,67 @@
+{
+  "name": "besur-themes",
+  "displayName": "BESUR Themes",
+  "publisher": "Ballwictb",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ballwictb/besur-themes.git"
+  },
+  "author": {
+    "name": "Ballwictb"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "description": "Vibrant color themes (dark, soft, light) with extended language support: JS/TS, Python, Rust, Go, PHP, SQL, XML, YAML, TOML, Markdown, Bash, and more.",
+  "version": "1.0.6",
+  "icon": "icon.png",
+  "keywords": [
+    "theme",
+    "themes",
+    "neon",
+    "dark",
+    "light",
+    "cyberpunk",
+    "vivid",
+    "bright",
+    "sql",
+    "xml",
+    "yaml",
+    "python",
+    "rust",
+    "go",
+    "php",
+    "database"
+  ],
+  "galleryBanner": {
+    "color": "#0e141a",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ballwictb/besur-themes/issues"
+  },
+  "homepage": "https://besur.site",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "BESUR",
+        "uiTheme": "vs-dark",
+        "path": "./themes/besur-color-theme.json"
+      },
+      {
+        "label": "BESUR Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/besur-soft-color-theme.json"
+      },
+      {
+        "label": "BESUR Light",
+        "uiTheme": "vs",
+        "path": "./themes/besur-light-color-theme.json"
+      }
+    ]
+  }
+}

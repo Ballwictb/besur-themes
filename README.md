@@ -40,15 +40,15 @@ Built on a cyberpunk-inspired palette, it covers everything from JavaScript to S
 
 ## Color Palette
 
-| Role                             | Color     |
-| -------------------------------- | --------- |
-| Background                       | `#0e141a` |
-| Foreground                       | `#ffffff` |
-| Pink (functions, tags, keywords) | `#ff006a` |
-| Blue (variables, attributes)     | `#44dfff` |
-| Green (strings, values)          | `#aaed36` |
-| Yellow (numbers, decorators)     | `#f5af19` |
-| Gray (comments, punctuation)     | `#6e7d9a` |
+| Role                             | Color                                                              |
+| -------------------------------- | ------------------------------------------------------------------ |
+| Background                       | ![#0e141a](https://placehold.co/20x20/0e141a/0e141a.png) `#0e141a` |
+| Foreground                       | ![#ffffff](https://placehold.co/20x20/ffffff/ffffff.png) `#ffffff` |
+| Pink (functions, tags, keywords) | ![#ff006a](https://placehold.co/20x20/ff006a/ff006a.png) `#ff006a` |
+| Blue (variables, attributes)     | ![#44dfff](https://placehold.co/20x20/44dfff/44dfff.png) `#44dfff` |
+| Green (strings, values)          | ![#aaed36](https://placehold.co/20x20/aaed36/aaed36.png) `#aaed36` |
+| Yellow (numbers, decorators)     | ![#f5af19](https://placehold.co/20x20/f5af19/f5af19.png) `#f5af19` |
+| Gray (comments, punctuation)     | ![#6e7d9a](https://placehold.co/20x20/6e7d9a/6e7d9a.png) `#6e7d9a` |
 
 ---
 

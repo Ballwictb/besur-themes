@@ -1,0 +1,1124 @@
+{
+  "name": "BESUR",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0e141a",
+    "editor.foreground": "#ffffff",
+    "activityBarBadge.background": "#ff006a",
+    "activityBarBadge.foreground": "#ffffff",
+    "sideBarTitle.foreground": "#6e7d9abb",
+    "sideBar.background": "#0a1016",
+    "sideBar.foreground": "#6e7d9a",
+    "sideBar.border": "#ffffff09",
+    "activityBar.background": "#060c12",
+    "activityBar.border": "#ffffff09",
+    "activityBar.foreground": "#6e7d9a",
+    "statusBar.background": "#0a1016",
+    "statusBar.noFolderBackground": "#0a1016",
+    "statusBar.debuggingBackground": "#ff006a",
+    "statusBar.debuggingForeground": "#ffffff",
+    "statusBar.foreground": "#6e7d9abb",
+    "statusBar.border": "#ffffff09",
+    "tab.border": "#00000000",
+    "tab.activeBackground": "#0e141a",
+    "tab.activeBorderTop": "#ff006a",
+    "tab.inactiveBackground": "#0a1016",
+    "tab.inactiveForeground": "#6e7d9abb",
+    "editorGroupHeader.tabsBorder": "#ffffff09",
+    "editorGroupHeader.tabsBackground": "#0a1016",
+    "editorLineNumber.foreground": "#5a6986aa",
+    "editorLineNumber.activeForeground": "#6e7d9a",
+    "editorCursor.foreground": "#ff006a",
+    "button.background": "#ff006a",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#cc0055",
+    "input.background": "#0c1116",
+    "input.border": "#ffffff09",
+    "input.foreground": "#ffffff",
+    "input.placeholderForeground": "#6e7d9a88",
+    "panel.border": "#ffffff09",
+    "panel.background": "#0a1016",
+    "panelTitle.activeForeground": "#ffffff",
+    "panelTitle.activeBorder": "#ff006a",
+    "dropdown.background": "#0a1016",
+    "dropdown.border": "#ffffff09",
+    "dropdown.foreground": "#ffffff",
+    "welcomePage.buttonBackground": "#0c1116",
+    "welcomePage.buttonHoverBackground": "#ffffff04",
+    "focusBorder": "#ff006a44",
+    "menu.border": "#ffffff09",
+    "menu.background": "#0a1016",
+    "menu.foreground": "#ffffff",
+    "menu.selectionBackground": "#ffffff15",
+    "menu.separatorBackground": "#ffffff09",
+    "titleBar.border": "#ffffff09",
+    "titleBar.activeBackground": "#0a1016",
+    "titleBar.inactiveBackground": "#060c12",
+    "titleBar.activeForeground": "#6e7d9a",
+    "titleBar.inactiveForeground": "#6e7d9aaa",
+    "checkbox.border": "#ffffff09",
+    "checkbox.background": "#0c1116",
+    "diffEditor.border": "#ffffff09",
+    "diffEditor.insertedTextBackground": "#aaed3622",
+    "diffEditor.removedTextBackground": "#ff006a22",
+    "terminalCursor.foreground": "#ff006a",
+    "terminal.background": "#0a1016",
+    "terminal.foreground": "#ffffff",
+    "terminal.ansiBlack": "#0e141a",
+    "terminal.ansiBlue": "#44dfff",
+    "terminal.ansiCyan": "#44dfff",
+    "terminal.ansiGreen": "#aaed36",
+    "terminal.ansiMagenta": "#ff006a",
+    "terminal.ansiRed": "#ff006a",
+    "terminal.ansiWhite": "#ffffff",
+    "terminal.ansiYellow": "#f5af19",
+    "terminal.ansiBrightBlack": "#6e7d9a",
+    "terminal.ansiBrightBlue": "#44dfff",
+    "terminal.ansiBrightCyan": "#44dfff",
+    "terminal.ansiBrightGreen": "#aaed36",
+    "terminal.ansiBrightMagenta": "#ff006a",
+    "terminal.ansiBrightRed": "#ff006a",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiBrightYellow": "#f5af19",
+    "gitDecoration.modifiedResourceForeground": "#f5af19",
+    "gitDecoration.untrackedResourceForeground": "#aaed36",
+    "gitDecoration.ignoredResourceForeground": "#6e7d9abb",
+    "gitDecoration.deletedResourceForeground": "#ff006a",
+    "gitDecoration.conflictingResourceForeground": "#f5af19",
+    "list.activeSelectionBackground": "#ffffff12",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.inactiveSelectionBackground": "#ffffff08",
+    "list.inactiveSelectionForeground": "#ffffff",
+    "list.hoverBackground": "#ffffff08",
+    "list.hoverForeground": "#ffffff",
+    "list.focusBackground": "#ffffff12",
+    "list.highlightForeground": "#ff006a",
+    "editorRuler.foreground": "#ffffff09",
+    "widget.shadow": "#00000044",
+    "editorGroup.border": "#ffffff09",
+    "scrollbarSlider.background": "#ffffff08",
+    "scrollbarSlider.hoverBackground": "#ffffff12",
+    "scrollbarSlider.activeBackground": "#ffffff18",
+    "scrollbar.shadow": "#00000000",
+    "window.activeBorder": "#0e141a",
+    "editorWidget.background": "#0a1016",
+    "editorWidget.border": "#ffffff09",
+    "editorSuggestWidget.background": "#0a1016",
+    "editorSuggestWidget.border": "#ffffff09",
+    "editorSuggestWidget.selectedBackground": "#ffffff15",
+    "editorSuggestWidget.highlightForeground": "#ff006a",
+    "editorHoverWidget.background": "#0a1016",
+    "editorHoverWidget.border": "#ffffff09",
+    "editorInfo.foreground": "#44dfff",
+    "editorWarning.foreground": "#f5af19",
+    "editorError.foreground": "#ff006a",
+    "editorGutter.addedBackground": "#aaed3688",
+    "editorGutter.modifiedBackground": "#f5af1988",
+    "editorGutter.deletedBackground": "#ff006a88",
+    "editorBracketMatch.background": "#ffffff15",
+    "editorBracketMatch.border": "#ff006a88",
+    "editorIndentGuide.background": "#ffffff09",
+    "editorIndentGuide.activeBackground": "#ffffff20",
+    "editorOverviewRuler.border": "#ffffff09",
+    "editorOverviewRuler.errorForeground": "#ff006a",
+    "editorOverviewRuler.warningForeground": "#f5af19",
+    "editorOverviewRuler.infoForeground": "#44dfff",
+    "peekView.border": "#ff006a44",
+    "peekViewEditor.background": "#0a1016",
+    "peekViewResult.background": "#060c12",
+    "peekViewTitle.background": "#0a1016",
+    "peekViewTitleLabel.foreground": "#ffffff",
+    "peekViewTitleDescription.foreground": "#6e7d9a",
+    "badge.background": "#ff006a",
+    "badge.foreground": "#ffffff",
+    "breadcrumb.foreground": "#6e7d9a88",
+    "breadcrumb.focusForeground": "#ffffff",
+    "breadcrumb.activeSelectionForeground": "#ff006a",
+    "notificationCenterHeader.background": "#0a1016",
+    "notifications.background": "#0a1016",
+    "notifications.border": "#ffffff09",
+    "extensionButton.prominentBackground": "#ff006a",
+    "extensionButton.prominentHoverBackground": "#cc0055"
+  },
+  "tokenColors": [
+    {
+      "name": "BESUR - Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "fenced_code.block.language.markdown"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#5a6986aa"
+      }
+    },
+
+    {
+      "name": "BESUR - Gray / Punctuation / Tags",
+      "scope": [
+        "punctuation.definition.tag",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "meta.tag",
+        "punctuation.separator.inheritance.php",
+        "keyword.other.template",
+        "keyword.other.substitution",
+        "meta.arrow",
+        "storage.type.function.arrow",
+        "keyword.operator.assignment",
+        "punctuation.terminator.rule.css",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "punctuation.section.embedded.begin",
+        "punctuation.section.embedded.end"
+      ],
+      "settings": {
+        "foreground": "#6e7d9a"
+      }
+    },
+
+    {
+      "name": "BESUR - Blue / Variables",
+      "scope": [
+        "variable",
+        "variable.other",
+        "variable.other.readwrite",
+        "variable.other.object",
+        "string constant.other.placeholder",
+        "meta.block variable.other",
+        "entity.name.method",
+        "variable.function.constructor",
+        "markup.changed",
+        "constant.character.escape",
+        "markup.inline.raw.string.markdown",
+        "entity.other.attribute-name.class.css",
+        "entity.other.inherited-class.ruby",
+        "keyword.control.pseudo-method.ruby",
+        "entity.name.variable.parameter.python",
+        "variable.parameter.function.python",
+        "variable.other.property",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "#44dfff"
+      }
+    },
+
+    {
+      "name": "BESUR - White / Keywords / Storage",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "keyword.operator",
+        "storage.type",
+        "storage.modifier",
+        "constant.language",
+        "support.constant",
+        "constant.character",
+        "constant.escape",
+        "variable.parameter",
+        "keyword.other.unit",
+        "keyword.other",
+        "markup.heading",
+        "markup.inserted.git_gutter",
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+
+    {
+      "name": "BESUR - Pink / Functions / Tags",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "variable.function",
+        "support.function",
+        "entity.name.tag",
+        "entity.name",
+        "keyword.control.flow",
+        "keyword.control.conditional",
+        "keyword.control.loop",
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.from",
+        "keyword.control.return",
+        "keyword.control.async",
+        "keyword.control.await",
+        "keyword.control.try",
+        "keyword.control.except",
+        "keyword.control.raise",
+        "invalid",
+        "invalid.illegal",
+        "markup.deleted.git_gutter",
+        "markup.changed.git_gutter",
+        "support.orther.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php",
+        "support.type.sys-types"
+      ],
+      "settings": {
+        "foreground": "#ff006a"
+      }
+    },
+
+    {
+      "name": "BESUR - Green / Strings",
+      "scope": [
+        "string",
+        "string.quoted",
+        "string.quoted.single",
+        "string.quoted.double",
+        "string.quoted.triple",
+        "string.template",
+        "string.regexp",
+        "string.interpolated",
+        "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.inherited-class",
+        "keyword.other.special-method",
+        "markup.inserted.git_gutter",
+        "variable.language"
+      ],
+      "settings": {
+        "foreground": "#aaed36"
+      }
+    },
+
+    {
+      "name": "BESUR - Yellow / Numbers / Decorators",
+      "scope": [
+        "constant.numeric",
+        "constant.numeric.integer",
+        "constant.numeric.float",
+        "constant.numeric.hex",
+        "constant.numeric.octal",
+        "constant.numeric.binary",
+        "tag.decorator entity.name.tag",
+        "tag.decorator punctuation.definition.tag",
+        "entity.name.decorator",
+        "keyword.operator.logical",
+        "constant.language.symbol.ruby",
+        "constant.other.color",
+        "constant.other.symbol",
+        "constant.other.key",
+        "punctuation.definition.annotation",
+        "storage.type.annotation"
+      ],
+      "settings": {
+        "foreground": "#f5af19"
+      }
+    },
+
+    {
+      "name": "BESUR - Bold",
+      "scope": [
+        "markup.bold",
+        "markup.bold string",
+        "entity.name",
+        "entity.other.inherited-class",
+        "entity.other.attribute-name.class.css",
+        "keyword.other.important.css",
+        "keyword.other.important.scss",
+        "support.class",
+        "support.class.ruby"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "BESUR - Italic",
+      "scope": ["markup.italic", "comment"],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+
+    {
+      "name": "BESUR - Underline",
+      "scope": ["markup.underline", "*url*", "*link*", "*uri*"],
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+
+    {
+      "name": "BESUR - Offwhite / Markdown body",
+      "scope": [
+        "text.html.markdown",
+        "punctuation.definition.list_item.markdown",
+        "markup.italic"
+      ],
+      "settings": {
+        "foreground": "#dddddd"
+      }
+    },
+
+    {
+      "name": "BESUR - Faded imports",
+      "scope": [
+        "meta.import",
+        "punctuation.terminator.statement",
+        "keyword.control.import",
+        "keyword.control.from"
+      ],
+      "settings": {
+        "foreground": "#5a6986aa"
+      }
+    },
+
+    {
+      "name": "BESUR - Markdown Link",
+      "scope": [
+        "string.other.link.title.markdown",
+        "constant.other.reference.link.markdown"
+      ],
+      "settings": {
+        "foreground": "#44dfff"
+      }
+    },
+
+    {
+      "name": "BESUR - Markdown Quote/Separator",
+      "scope": [
+        "markup.quote",
+        "markup.quote punctuation.definition.blockquote.markdown",
+        "meta.separator",
+        "markup.table"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#6e7d9a"
+      }
+    },
+
+    {
+      "name": "BESUR - Markup Raw",
+      "scope": ["markup.raw.block"],
+      "settings": {
+        "foreground": "#cccccc"
+      }
+    },
+
+    {
+      "name": "BESUR - Bold-Italic",
+      "scope": [
+        "markup.bold markup.italic",
+        "markup.italic markup.bold",
+        "markup.quote markup.bold"
+      ],
+      "settings": {
+        "fontStyle": "bold italic",
+        "foreground": "#cccccc"
+      }
+    },
+
+    {
+      "name": "BESUR - Support Types / CSS Properties",
+      "scope": [
+        "support.type",
+        "source.css support.type.property-name",
+        "source.sass support.type.property-name",
+        "source.scss support.type.property-name",
+        "source.less support.type.property-name",
+        "source.stylus support.type.property-name",
+        "source.postcss support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#6e7d9a"
+      }
+    },
+
+    {
+      "name": "BESUR - CSS Selectors",
+      "scope": [
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.id",
+        "entity.name.tag.css"
+      ],
+      "settings": {
+        "foreground": "#ff006a"
+      }
+    },
+
+    {
+      "name": "BESUR - CSS Values",
+      "scope": [
+        "support.constant.property-value.css",
+        "support.constant.font-name.css",
+        "support.constant.media-type.media.css",
+        "support.constant.media.css",
+        "constant.other.color.rgb-value.css",
+        "constant.other.color.rgb-value.hex.css"
+      ],
+      "settings": {
+        "foreground": "#aaed36"
+      }
+    },
+
+    {
+      "name": "BESUR - CSS Units",
+      "scope": [
+        "keyword.other.unit.px.css",
+        "keyword.other.unit.em.css",
+        "keyword.other.unit.rem.css",
+        "keyword.other.unit.vh.css",
+        "keyword.other.unit.vw.css",
+        "keyword.other.unit.pt.css",
+        "keyword.other.unit.percent.css",
+        "keyword.other.unit.css"
+      ],
+      "settings": {
+        "foreground": "#f5af19"
+      }
+    },
+
+    {
+      "name": "BESUR - SQL Keywords",
+      "scope": [
+        "keyword.other.sql",
+        "keyword.other.create.sql",
+        "keyword.other.drop.sql",
+        "keyword.other.select.sql",
+        "keyword.other.insert.sql",
+        "keyword.other.update.sql",
+        "keyword.other.delete.sql",
+        "keyword.other.where.sql",
+        "keyword.other.from.sql",
+        "keyword.other.join.sql",
+        "keyword.other.on.sql",
+        "keyword.other.as.sql",
+        "keyword.other.order.sql",
+        "keyword.other.group.sql",
+        "keyword.other.by.sql",
+        "keyword.other.having.sql",
+        "keyword.other.limit.sql",
+        "keyword.other.offset.sql",
+        "keyword.other.union.sql",
+        "keyword.other.intersect.sql",
+        "keyword.other.except.sql",
+        "keyword.other.into.sql",
+        "keyword.other.values.sql",
+        "keyword.other.set.sql",
+        "keyword.other.table.sql",
+        "keyword.other.database.sql",
+        "keyword.other.index.sql",
+        "keyword.other.primary.sql",
+        "keyword.other.foreign.sql",
+        "keyword.other.key.sql",
+        "keyword.other.references.sql",
+        "keyword.other.constraint.sql",
+        "keyword.other.not.sql",
+        "keyword.other.null.sql",
+        "keyword.other.unique.sql",
+        "keyword.other.default.sql",
+        "keyword.other.check.sql",
+        "keyword.other.transaction.sql",
+        "keyword.other.begin.sql",
+        "keyword.other.commit.sql",
+        "keyword.other.rollback.sql",
+        "keyword.other.grant.sql",
+        "keyword.other.revoke.sql",
+        "keyword.other.procedure.sql",
+        "keyword.other.function.sql",
+        "keyword.other.trigger.sql",
+        "keyword.other.view.sql",
+        "keyword.other.alter.sql",
+        "support.function.aggregate.sql",
+        "support.function.window.sql"
+      ],
+      "settings": {
+        "foreground": "#ff006a",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "BESUR - SQL Data Types",
+      "scope": [
+        "storage.type.sql",
+        "storage.type.numeric.sql",
+        "storage.type.string.sql",
+        "storage.type.date.sql",
+        "keyword.other.type.sql"
+      ],
+      "settings": {
+        "foreground": "#44dfff"
+      }
+    },
+
+    {
+      "name": "BESUR - SQL Table/Column Names",
+      "scope": [
+        "entity.name.function.sql",
+        "meta.toc-list.id.sql",
+        "variable.other.table.sql",
+        "variable.other.column.sql",
+        "constant.other.database-name.sql",
+        "constant.other.table-name.sql"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+
+    {
+      "name": "BESUR - SQL Functions",
+      "scope": [
+        "support.function.scalar.sql",
+        "support.function.string.sql",
+        "support.function.numeric.sql",
+        "support.function.date.sql"
+      ],
+      "settings": {
+        "foreground": "#f5af19"
+      }
+    },
+
+    {
+      "name": "BESUR - XML Tags",
+      "scope": [
+        "entity.name.tag.xml",
+        "entity.name.tag.localname.xml",
+        "meta.tag.xml"
+      ],
+      "settings": {
+        "foreground": "#ff006a"
+      }
+    },
+
+    {
+      "name": "BESUR - XML Attributes",
+      "scope": [
+        "entity.other.attribute-name.xml",
+        "entity.other.attribute-name.localname.xml",
+        "entity.other.attribute-name.namespace.xml"
+      ],
+      "settings": {
+        "foreground": "#44dfff"
+      }
+    },
+
+    {
+      "name": "BESUR - XML Namespace",
+      "scope": [
+        "entity.name.tag.namespace.xml",
+        "entity.other.attribute-name.namespace.xml",
+        "variable.other.documentroot.xml"
+      ],
+      "settings": {
+        "foreground": "#f5af19"
+      }
+    },
+
+    {
+      "name": "BESUR - XML Processing Instruction",
+      "scope": [
+        "meta.tag.preprocessor.xml",
+        "punctuation.definition.tag.xml"
+      ],
+      "settings": {
+        "foreground": "#6e7d9a"
+      }
+    },
+
+    {
+      "name": "BESUR - YAML Keys",
+      "scope": [
+        "entity.name.tag.yaml",
+        "string.unquoted.plain.out.yaml",
+        "string.unquoted.block.yaml",
+        "punctuation.definition.block.sequence.item.yaml"
+      ],
+      "settings": {
+        "foreground": "#44dfff"
+      }
+    },
+
+    {
+      "name": "BESUR - YAML Values",
+      "scope": [
+        "string.quoted.single.yaml",
+        "string.quoted.double.yaml",
+        "string.unquoted.plain.in.yaml"
+      ],
+      "settings": {
+        "foreground": "#aaed36"
+      }
+    },
+
+    {
+      "name": "BESUR - YAML Anchors",
+      "scope": [
+        "entity.name.type.anchor.yaml",
+        "variable.other.alias.yaml",
+        "punctuation.definition.anchor.yaml",
+        "punctuation.definition.alias.yaml"
+      ],
+      "settings": {
+        "foreground": "#f5af19"
+      }
+    },
+
+    {
+      "name": "BESUR - YAML Boolean / Null",
+      "scope": [
+        "constant.language.boolean.yaml",
+        "constant.language.null.yaml",
+        "constant.language.yaml"
+      ],
+      "settings": {
+        "foreground": "#ff006a"
+      }
+    },
+
+    {
+      "name": "BESUR - TOML Keys",
+      "scope": [
+        "keyword.key.toml",
+        "support.type.property-name.toml",
+        "variable.other.key.toml"
+      ],
+      "settings": {
+        "foreground": "#44dfff"
+      }
+    },
+
+    {
+      "name": "BESUR - TOML Section Headers",
+      "scope": [
+        "entity.other.attribute-name.toml",
+        "entity.name.section.toml",
+        "punctuation.definition.table.toml",
+        "punctuation.definition.array.table.toml"
+      ],
+      "settings": {
+        "foreground": "#ff006a",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "BESUR - Python Built-ins / Decorators",
+      "scope": [
+        "support.type.python",
+        "support.function.builtin.python",
+        "meta.function.decorator.python",
+        "entity.name.function.decorator.python",
+        "punctuation.definition.decorator.python"
+      ],
+      "settings": {
+        "foreground": "#f5af19"
+      }
+    },
+
+    {
+      "name": "BESUR - Python self / cls",
+      "scope": [
+        "variable.language.special.self.python",
+        "variable.language.special.cls.python",
+        "variable.parameter.function.language.special.self.python"
+      ],
+      "settings": {
+        "foreground": "#ff006a",
+        "fontStyle": "italic"
+      }
+    },
+
+    {
+      "name": "BESUR - Python Type Hints",
+      "scope": [
+        "support.type.typing.python",
+        "meta.type.annotation.python",
+        "support.class.typing.python"
+      ],
+      "settings": {
+        "foreground": "#44dfff"
+      }
+    },
+
+    {
+      "name": "BESUR - Rust Lifetime",
+      "scope": [
+        "entity.name.lifetime.rust",
+        "storage.modifier.lifetime.rust",
+        "punctuation.definition.lifetime.rust"
+      ],
+      "settings": {
+        "foreground": "#f5af19",
+        "fontStyle": "italic"
+      }
+    },
+
+    {
+      "name": "BESUR - Rust Macros",
+      "scope": [
+        "entity.name.function.macro.rust",
+        "meta.macro.rust",
+        "support.macro.rust"
+      ],
+      "settings": {
+        "foreground": "#ff006a"
+      }
+    },
+
+    {
+      "name": "BESUR - Rust Types / Traits",
+      "scope": [
+        "entity.name.type.rust",
+        "entity.name.trait.rust",
+        "entity.name.struct.rust",
+        "entity.name.enum.rust",
+        "entity.name.union.rust",
+        "entity.name.impl.rust",
+        "storage.type.rust"
+      ],
+      "settings": {
+        "foreground": "#44dfff"
+      }
+    },
+
+    {
+      "name": "BESUR - Go Keywords",
+      "scope": [
+        "keyword.type.go",
+        "keyword.package.go",
+        "keyword.import.go",
+        "keyword.function.go",
+        "keyword.var.go",
+        "keyword.const.go",
+        "keyword.interface.go",
+        "keyword.struct.go",
+        "keyword.map.go",
+        "keyword.chan.go",
+        "keyword.go.go",
+        "keyword.defer.go",
+        "keyword.select.go",
+        "keyword.fall_through.go"
+      ],
+      "settings": {
+        "foreground": "#ff006a"
+      }
+    },
+
+    {
+      "name": "BESUR - Go Built-ins",
+      "scope": [
+        "support.function.builtin.go",
+        "support.type.builtin.go"
+      ],
+      "settings": {
+        "foreground": "#f5af19"
+      }
+    },
+
+    {
+      "name": "BESUR - PHP Variables",
+      "scope": [
+        "variable.other.php",
+        "variable.other.global.php",
+        "variable.other.global.safer.php",
+        "variable.language.this.php"
+      ],
+      "settings": {
+        "foreground": "#44dfff"
+      }
+    },
+
+    {
+      "name": "BESUR - PHP Types / Classes",
+      "scope": [
+        "support.class.php",
+        "entity.name.type.class.php",
+        "storage.type.class.php",
+        "storage.type.interface.php",
+        "storage.type.trait.php",
+        "storage.type.enum.php"
+      ],
+      "settings": {
+        "foreground": "#f5af19"
+      }
+    },
+
+    {
+      "name": "BESUR - PHP Built-in functions",
+      "scope": [
+        "support.function.string.php",
+        "support.function.array.php",
+        "support.function.math.php",
+        "support.function.datetime.php",
+        "support.function.url.php",
+        "support.function.file.php"
+      ],
+      "settings": {
+        "foreground": "#ff006a"
+      }
+    },
+
+    {
+      "name": "BESUR - Shell Variables",
+      "scope": [
+        "variable.other.normal.shell",
+        "variable.other.positional.shell",
+        "variable.other.bracket.shell",
+        "variable.language.shell",
+        "variable.other.special.shell",
+        "variable.other.c-style.shell"
+      ],
+      "settings": {
+        "foreground": "#44dfff"
+      }
+    },
+
+    {
+      "name": "BESUR - Shell Built-ins / Commands",
+      "scope": [
+        "support.function.builtin.shell",
+        "entity.name.command.shell",
+        "support.other.parenthesis.regexp"
+      ],
+      "settings": {
+        "foreground": "#ff006a"
+      }
+    },
+
+    {
+      "name": "BESUR - Shell Flags",
+      "scope": [
+        "string.other.option.shell",
+        "constant.other.option.shell",
+        "punctuation.definition.flag.shell"
+      ],
+      "settings": {
+        "foreground": "#f5af19"
+      }
+    },
+
+    {
+      "name": "BESUR - Java Annotations",
+      "scope": [
+        "punctuation.definition.annotation.java",
+        "storage.type.annotation.java",
+        "variable.annotation.java"
+      ],
+      "settings": {
+        "foreground": "#f5af19"
+      }
+    },
+
+    {
+      "name": "BESUR - Java Types",
+      "scope": [
+        "storage.type.java",
+        "storage.type.primitive.java",
+        "entity.name.type.class.java",
+        "entity.name.type.interface.java",
+        "entity.name.type.enum.java"
+      ],
+      "settings": {
+        "foreground": "#44dfff"
+      }
+    },
+
+    {
+      "name": "BESUR - C/C++ Preprocessor",
+      "scope": [
+        "meta.preprocessor.c",
+        "keyword.control.directive.c",
+        "keyword.control.directive.cpp",
+        "keyword.control.directive.include.c",
+        "keyword.control.directive.include.cpp",
+        "keyword.control.directive.define.c",
+        "keyword.control.directive.define.cpp"
+      ],
+      "settings": {
+        "foreground": "#f5af19"
+      }
+    },
+
+    {
+      "name": "BESUR - C/C++ Types",
+      "scope": [
+        "storage.type.c",
+        "storage.type.cpp",
+        "storage.type.built-in.c",
+        "storage.type.built-in.cpp",
+        "storage.type.primitive.c",
+        "storage.type.primitive.cpp"
+      ],
+      "settings": {
+        "foreground": "#44dfff"
+      }
+    },
+
+    {
+      "name": "BESUR - Docker Instructions",
+      "scope": [
+        "keyword.other.special-method.dockerfile",
+        "entity.name.function.dockerfile",
+        "keyword.other.dockerfile"
+      ],
+      "settings": {
+        "foreground": "#ff006a",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "BESUR - JSON Keys level 1",
+      "scope": [
+        "source.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#ff006a"
+      }
+    },
+
+    {
+      "name": "BESUR - JSON Keys level 2",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#44dfff"
+      }
+    },
+
+    {
+      "name": "BESUR - JSON Keys level 3",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#aaed36"
+      }
+    },
+
+    {
+      "name": "BESUR - JSON Keys level 4",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#f5af19"
+      }
+    },
+
+    {
+      "name": "BESUR - JSON Keys level 5+",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+
+    {
+      "name": "BESUR - GraphQL Keywords",
+      "scope": [
+        "keyword.operation.graphql",
+        "keyword.fragment.graphql",
+        "keyword.type.graphql",
+        "keyword.schema.graphql",
+        "keyword.enum.graphql",
+        "keyword.union.graphql",
+        "keyword.scalar.graphql",
+        "keyword.interface.graphql",
+        "keyword.input.graphql",
+        "keyword.directive.graphql",
+        "keyword.extends.graphql",
+        "keyword.implements.graphql",
+        "keyword.on.graphql"
+      ],
+      "settings": {
+        "foreground": "#ff006a",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "BESUR - GraphQL Field Names / Arguments",
+      "scope": [
+        "variable.graphql",
+        "string.unquoted.alias.graphql",
+        "entity.name.fragment.graphql"
+      ],
+      "settings": {
+        "foreground": "#44dfff"
+      }
+    },
+
+    {
+      "name": "BESUR - GraphQL Types",
+      "scope": [
+        "support.type.graphql",
+        "entity.name.type.graphql",
+        "entity.name.type.object.graphql"
+      ],
+      "settings": {
+        "foreground": "#f5af19"
+      }
+    },
+
+    {
+      "name": "BESUR - Prisma Keywords",
+      "scope": [
+        "keyword.model.prisma",
+        "keyword.enum.prisma",
+        "keyword.datasource.prisma",
+        "keyword.generator.prisma",
+        "support.class.prisma",
+        "entity.name.type.model.prisma"
+      ],
+      "settings": {
+        "foreground": "#ff006a",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "BESUR - Prisma Types",
+      "scope": [
+        "support.type.primitive.prisma",
+        "entity.name.type.prisma"
+      ],
+      "settings": {
+        "foreground": "#44dfff"
+      }
+    },
+
+    {
+      "name": "BESUR - Regex",
+      "scope": [
+        "string.regexp",
+        "constant.character.character-class.regexp",
+        "constant.other.character-class.regexp",
+        "constant.character.escape.regexp",
+        "keyword.control.anchor.regexp",
+        "keyword.operator.quantifier.regexp"
+      ],
+      "settings": {
+        "foreground": "#aaed36"
+      }
+    },
+
+    {
+      "name": "BESUR - Regex Special Chars",
+      "scope": [
+        "punctuation.definition.character-class.regexp",
+        "keyword.operator.or.regexp",
+        "punctuation.definition.group.regexp",
+        "punctuation.definition.group.assertion.regexp"
+      ],
+      "settings": {
+        "foreground": "#f5af19"
+      }
+    }
+  ]
+}

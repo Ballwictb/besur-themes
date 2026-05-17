@@ -1,0 +1,240 @@
+{
+  "name": "BESUR Soft",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#111820",
+    "editor.foreground": "#cdd6e8",
+    "activityBarBadge.background": "#cc0055",
+    "activityBarBadge.foreground": "#ffffff",
+    "sideBarTitle.foreground": "#6e7d9abb",
+    "sideBar.background": "#0d141b",
+    "sideBar.foreground": "#6e7d9a",
+    "sideBar.border": "#ffffff09",
+    "activityBar.background": "#090f16",
+    "activityBar.border": "#ffffff09",
+    "activityBar.foreground": "#6e7d9a",
+    "statusBar.background": "#0d141b",
+    "statusBar.noFolderBackground": "#0d141b",
+    "statusBar.debuggingBackground": "#cc0055",
+    "statusBar.debuggingForeground": "#ffffff",
+    "statusBar.foreground": "#6e7d9abb",
+    "statusBar.border": "#ffffff09",
+    "tab.border": "#00000000",
+    "tab.activeBackground": "#111820",
+    "tab.activeBorderTop": "#cc0055",
+    "tab.inactiveBackground": "#0d141b",
+    "tab.inactiveForeground": "#6e7d9abb",
+    "editorGroupHeader.tabsBorder": "#ffffff09",
+    "editorGroupHeader.tabsBackground": "#0d141b",
+    "editorLineNumber.foreground": "#5a6986aa",
+    "editorLineNumber.activeForeground": "#6e7d9a",
+    "editorCursor.foreground": "#cc0055",
+    "button.background": "#cc0055",
+    "button.foreground": "#ffffff",
+    "input.background": "#0f161d",
+    "input.border": "#ffffff09",
+    "input.foreground": "#cdd6e8",
+    "panel.border": "#ffffff09",
+    "panel.background": "#0d141b",
+    "panelTitle.activeForeground": "#cdd6e8",
+    "panelTitle.activeBorder": "#cc0055",
+    "dropdown.background": "#0d141b",
+    "dropdown.border": "#ffffff09",
+    "dropdown.foreground": "#cdd6e8",
+    "focusBorder": "#cc005544",
+    "menu.border": "#ffffff09",
+    "menu.background": "#0d141b",
+    "menu.foreground": "#cdd6e8",
+    "menu.selectionBackground": "#ffffff15",
+    "titleBar.border": "#ffffff09",
+    "titleBar.activeBackground": "#0d141b",
+    "titleBar.inactiveBackground": "#090f16",
+    "titleBar.activeForeground": "#6e7d9a",
+    "titleBar.inactiveForeground": "#6e7d9aaa",
+    "checkbox.border": "#ffffff09",
+    "checkbox.background": "#0f161d",
+    "diffEditor.border": "#ffffff09",
+    "diffEditor.insertedTextBackground": "#aaed3618",
+    "diffEditor.removedTextBackground": "#cc005518",
+    "terminalCursor.foreground": "#cc0055",
+    "terminal.background": "#0d141b",
+    "terminal.foreground": "#cdd6e8",
+    "gitDecoration.modifiedResourceForeground": "#c99a14",
+    "gitDecoration.untrackedResourceForeground": "#8dc42b",
+    "gitDecoration.ignoredResourceForeground": "#6e7d9abb",
+    "gitDecoration.deletedResourceForeground": "#cc0055",
+    "list.activeSelectionBackground": "#ffffff12",
+    "list.activeSelectionForeground": "#cdd6e8",
+    "list.inactiveSelectionBackground": "#ffffff08",
+    "list.hoverBackground": "#ffffff08",
+    "list.hoverForeground": "#cdd6e8",
+    "list.highlightForeground": "#cc0055",
+    "editorRuler.foreground": "#ffffff09",
+    "editorGroup.border": "#ffffff09",
+    "scrollbarSlider.background": "#ffffff08",
+    "scrollbarSlider.hoverBackground": "#ffffff12",
+    "scrollbarSlider.activeBackground": "#ffffff18",
+    "scrollbar.shadow": "#00000000",
+    "editorWidget.background": "#0d141b",
+    "editorWidget.border": "#ffffff09",
+    "editorSuggestWidget.background": "#0d141b",
+    "editorSuggestWidget.border": "#ffffff09",
+    "editorSuggestWidget.selectedBackground": "#ffffff15",
+    "editorSuggestWidget.highlightForeground": "#cc0055",
+    "editorInfo.foreground": "#35c4e0",
+    "editorWarning.foreground": "#c99a14",
+    "editorError.foreground": "#cc0055",
+    "badge.background": "#cc0055",
+    "badge.foreground": "#ffffff"
+  },
+  "tokenColors": [
+    {
+      "name": "BESUR Soft - Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#5a698688"
+      }
+    },
+    {
+      "name": "BESUR Soft - Blue / Variables",
+      "scope": ["variable", "variable.other", "meta.block variable.other"],
+      "settings": {
+        "foreground": "#35c4e0"
+      }
+    },
+    {
+      "name": "BESUR Soft - Pink / Functions",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "variable.function",
+        "support.function",
+        "entity.name.tag",
+        "keyword.control",
+        "entity.name"
+      ],
+      "settings": {
+        "foreground": "#cc0055"
+      }
+    },
+    {
+      "name": "BESUR Soft - Green / Strings",
+      "scope": [
+        "string",
+        "string.quoted",
+        "string.template",
+        "string.regexp",
+        "variable.language"
+      ],
+      "settings": {
+        "foreground": "#8dc42b"
+      }
+    },
+    {
+      "name": "BESUR Soft - Yellow / Numbers",
+      "scope": [
+        "constant.numeric",
+        "constant.numeric.integer",
+        "constant.numeric.float",
+        "constant.other.color",
+        "constant.other.symbol",
+        "entity.name.decorator",
+        "storage.type.annotation"
+      ],
+      "settings": {
+        "foreground": "#c99a14"
+      }
+    },
+    {
+      "name": "BESUR Soft - White / Keywords",
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier",
+        "constant.language",
+        "entity.other.attribute-name",
+        "markup.heading"
+      ],
+      "settings": {
+        "foreground": "#cdd6e8"
+      }
+    },
+    {
+      "name": "BESUR Soft - Gray",
+      "scope": [
+        "support.type",
+        "punctuation.definition.tag",
+        "meta.tag",
+        "storage.type.function.arrow"
+      ],
+      "settings": {
+        "foreground": "#6e7d9a"
+      }
+    },
+    {
+      "name": "BESUR Soft - SQL Keywords",
+      "scope": [
+        "keyword.other.sql",
+        "support.function.aggregate.sql",
+        "support.function.window.sql"
+      ],
+      "settings": {
+        "foreground": "#cc0055",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "BESUR Soft - SQL Data Types",
+      "scope": ["storage.type.sql", "storage.type.numeric.sql"],
+      "settings": {
+        "foreground": "#35c4e0"
+      }
+    },
+    {
+      "name": "BESUR Soft - XML Tags",
+      "scope": ["entity.name.tag.xml", "meta.tag.xml"],
+      "settings": {
+        "foreground": "#cc0055"
+      }
+    },
+    {
+      "name": "BESUR Soft - XML Attributes",
+      "scope": ["entity.other.attribute-name.xml"],
+      "settings": {
+        "foreground": "#35c4e0"
+      }
+    },
+    {
+      "name": "BESUR Soft - YAML Keys",
+      "scope": [
+        "entity.name.tag.yaml",
+        "string.unquoted.plain.out.yaml"
+      ],
+      "settings": {
+        "foreground": "#35c4e0"
+      }
+    },
+    {
+      "name": "BESUR Soft - YAML Values",
+      "scope": [
+        "string.quoted.single.yaml",
+        "string.quoted.double.yaml",
+        "string.unquoted.plain.in.yaml"
+      ],
+      "settings": {
+        "foreground": "#8dc42b"
+      }
+    },
+    {
+      "name": "BESUR Soft - Faded Imports",
+      "scope": ["meta.import", "keyword.control.import", "keyword.control.from"],
+      "settings": {
+        "foreground": "#5a698688"
+      }
+    }
+  ]
+}

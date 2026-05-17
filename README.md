@@ -1,7 +1,7 @@
 # BESUR — Vibrant Dark Theme
 
 <p align="center">
-  <img src="https://github.com/Ballwictb/besur-themes/blob/main/web/images/icon-animated.gif?raw=true" alt="BESUR icon — house and sun drawing" width="128" />
+  <img src="https://github.com/Ballwictb/besur-themes/blob/main/web/images/icon.gif?raw=true" alt="BESUR icon — house and sun drawing" width="228" />
 </p>
 
 **BESUR** is a vibrant color theme for VS Code and Open VSX with broad multi-language support.  

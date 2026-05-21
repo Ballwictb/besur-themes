@@ -13,7 +13,7 @@
     "Themes"
   ],
   "description": "Vibrant color themes (dark, soft, light) with extended language support: JS/TS, Python, Rust, Go, PHP, SQL, XML, YAML, TOML, Markdown, Bash, and more.",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "icon": "icon.png",
   "keywords": [
     "theme",
@@ -31,7 +31,11 @@
     "rust",
     "go",
     "php",
-    "database"
+    "database",
+    "barca",
+    "barcelona",
+    "blaugrana",
+    "football"
   ],
   "galleryBanner": {
     "color": "#0e141a",
@@ -61,6 +65,11 @@
         "label": "BESUR Light",
         "uiTheme": "vs",
         "path": "./themes/besur-light-color-theme.json"
+      },
+      {
+        "label": "BESUR Barca",
+        "uiTheme": "vs-dark",
+        "path": "./themes/besur-barca-color-theme.json"
       }
     ]
   }

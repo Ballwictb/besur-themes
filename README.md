@@ -19,6 +19,7 @@ Built on a cyberpunk-inspired palette, it covers everything from JavaScript to S
 | **BESUR**       | Full-saturation neon palette on dark background              |
 | **BESUR Soft**  | Slightly muted version, easier on the eyes for long sessions |
 | **BESUR Light** | Same intense colors adapted for a white background           |
+| **BESUR Barca** | Inspired by FC Barcelona's colors                            |
 
 ---
 
@@ -35,6 +36,10 @@ Built on a cyberpunk-inspired palette, it covers everything from JavaScript to S
 **BESUR Light**
 
 ![BESUR Light theme preview](https://github.com/Ballwictb/besur-themes/blob/main/web/images/examples/besur_light.png?raw=true)
+
+**BESUR Barca**
+
+![BESUR Barca theme preview](https://github.com/Ballwictb/besur-themes/blob/main/web/images/examples/besur_barca.png?raw=true)
 
 ---
 

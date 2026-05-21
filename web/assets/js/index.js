@@ -18,6 +18,7 @@ const TRANSLATIONS = {
             { name: "BESUR", desc: "Neon puro. El original." },
             { name: "BESUR Soft", desc: "Más suave. Para sesiones largas." },
             { name: "BESUR Light", desc: "Mismo color. Fondo blanco." },
+            { name: "BESUR Barca", desc: "Inspirado en los colores de FC Barcelona." }
         ],
     },
     en: {
@@ -36,6 +37,7 @@ const TRANSLATIONS = {
             { name: "BESUR", desc: "Pure neon. The original." },
             { name: "BESUR Soft", desc: "Softer tones. For long sessions." },
             { name: "BESUR Light", desc: "Same colors. White background." },
+            { name: "BESUR Barca", desc: "Inspired by FC Barcelona's colors." }
         ],
     },
 }
@@ -45,6 +47,7 @@ const THEME_COLORS = {
     besur: { bg: "#0e141a", surface: "#16202b", comment: "#6e7d9a", keyword: "#ff006a", string: "#aaed36", fn: "#44dfff", num: "#f5af19", text: "#e8eaf0" },
     "besur-soft": { bg: "#141c25", surface: "#1a2535", comment: "#7a8da8", keyword: "#e0005e", string: "#99d630", fn: "#3acce8", num: "#dfa018", text: "#d8dce8" },
     "besur-light": { bg: "#f8fafc", surface: "#edf0f7", comment: "#7a8da8", keyword: "#cc0055", string: "#4a7c00", fn: "#006ea8", num: "#a06800", text: "#1a1f2e" },
+    "besur-barca": { bg: "#0a0d1a", surface: "#003a70", comment: "#7a8da8", keyword: "#a50044", string: "#004d98", fn: "#a50044", num: "#ffed02", text: "#ffed02" },
 }
 
 // ── code snippets ──────────────────────────────────────────────────────────────

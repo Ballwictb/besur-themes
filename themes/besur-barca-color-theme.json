@@ -1,0 +1,827 @@
+{
+  "name": "BESUR Barca",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0a0d1a",
+    "editor.foreground": "#ffffff",
+    "activityBarBadge.background": "#a50044",
+    "activityBarBadge.foreground": "#ffffff",
+    "sideBarTitle.foreground": "#7a8cbbbb",
+    "sideBar.background": "#060914",
+    "sideBar.foreground": "#7a8cbb",
+    "sideBar.border": "#004d9820",
+    "sideBarSectionHeader.background": "#060914",
+    "sideBarSectionHeader.foreground": "#7a8cbb",
+    "activityBar.background": "#04060e",
+    "activityBar.border": "#004d9820",
+    "activityBar.foreground": "#7a8cbb",
+    "activityBar.inactiveForeground": "#7a8cbb66",
+    "statusBar.background": "#060914",
+    "statusBar.noFolderBackground": "#060914",
+    "statusBar.debuggingBackground": "#a50044",
+    "statusBar.debuggingForeground": "#ffffff",
+    "statusBar.foreground": "#7a8cbbbb",
+    "statusBar.border": "#004d9820",
+    "tab.border": "#00000000",
+    "tab.activeBackground": "#0a0d1a",
+    "tab.activeForeground": "#ffffff",
+    "tab.activeBorderTop": "#a50044",
+    "tab.inactiveBackground": "#060914",
+    "tab.inactiveForeground": "#7a8cbbbb",
+    "editorGroupHeader.tabsBorder": "#004d9820",
+    "editorGroupHeader.tabsBackground": "#060914",
+    "editorLineNumber.foreground": "#5a6986aa",
+    "editorLineNumber.activeForeground": "#7a8cbb",
+    "editorCursor.foreground": "#ffed02",
+    "button.background": "#a50044",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#8a0039",
+    "input.background": "#080b16",
+    "input.border": "#004d9830",
+    "input.foreground": "#ffffff",
+    "input.placeholderForeground": "#7a8cbb88",
+    "panel.border": "#004d9820",
+    "panel.background": "#060914",
+    "panelTitle.activeForeground": "#ffffff",
+    "panelTitle.activeBorder": "#a50044",
+    "dropdown.background": "#060914",
+    "dropdown.border": "#004d9820",
+    "dropdown.foreground": "#ffffff",
+    "welcomePage.buttonBackground": "#080b16",
+    "welcomePage.buttonHoverBackground": "#ffffff04",
+    "focusBorder": "#a5004444",
+    "menu.border": "#004d9820",
+    "menu.background": "#060914",
+    "menu.foreground": "#ffffff",
+    "menu.selectionBackground": "#004d9840",
+    "menu.separatorBackground": "#004d9820",
+    "titleBar.border": "#004d9820",
+    "titleBar.activeBackground": "#060914",
+    "titleBar.inactiveBackground": "#04060e",
+    "titleBar.activeForeground": "#7a8cbb",
+    "titleBar.inactiveForeground": "#7a8cbbaa",
+    "checkbox.border": "#004d9830",
+    "checkbox.background": "#080b16",
+    "diffEditor.border": "#004d9820",
+    "diffEditor.insertedTextBackground": "#004d9830",
+    "diffEditor.removedTextBackground": "#a5004430",
+    "terminalCursor.foreground": "#ffed02",
+    "terminal.background": "#060914",
+    "terminal.foreground": "#ffffff",
+    "terminal.ansiBlack": "#0a0d1a",
+    "terminal.ansiBlue": "#004d98",
+    "terminal.ansiCyan": "#5dade2",
+    "terminal.ansiGreen": "#004d98",
+    "terminal.ansiMagenta": "#a50044",
+    "terminal.ansiRed": "#a50044",
+    "terminal.ansiWhite": "#ffffff",
+    "terminal.ansiYellow": "#ffed02",
+    "terminal.ansiBrightBlack": "#7a8cbb",
+    "terminal.ansiBrightBlue": "#1a6fc4",
+    "terminal.ansiBrightCyan": "#5dade2",
+    "terminal.ansiBrightGreen": "#1a6fc4",
+    "terminal.ansiBrightMagenta": "#c70052",
+    "terminal.ansiBrightRed": "#c70052",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiBrightYellow": "#ffed02",
+    "gitDecoration.modifiedResourceForeground": "#ffed02",
+    "gitDecoration.untrackedResourceForeground": "#004d98",
+    "gitDecoration.ignoredResourceForeground": "#7a8cbbbb",
+    "gitDecoration.deletedResourceForeground": "#a50044",
+    "gitDecoration.conflictingResourceForeground": "#ffed02",
+    "list.activeSelectionBackground": "#004d9835",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.inactiveSelectionBackground": "#004d9820",
+    "list.inactiveSelectionForeground": "#ffffff",
+    "list.hoverBackground": "#004d9815",
+    "list.hoverForeground": "#ffffff",
+    "list.focusBackground": "#004d9835",
+    "list.highlightForeground": "#ffed02",
+    "editorRuler.foreground": "#004d9820",
+    "widget.shadow": "#00000044",
+    "editorGroup.border": "#004d9820",
+    "scrollbarSlider.background": "#004d9825",
+    "scrollbarSlider.hoverBackground": "#004d9840",
+    "scrollbarSlider.activeBackground": "#004d9855",
+    "scrollbar.shadow": "#00000000",
+    "window.activeBorder": "#0a0d1a",
+    "editorWidget.background": "#060914",
+    "editorWidget.border": "#004d9830",
+    "editorWidget.foreground": "#ffffff",
+    "editorSuggestWidget.background": "#060914",
+    "editorSuggestWidget.border": "#004d9830",
+    "editorSuggestWidget.selectedBackground": "#004d9840",
+    "editorSuggestWidget.highlightForeground": "#ffed02",
+    "editorSuggestWidget.foreground": "#ffffff",
+    "editorSuggestWidget.selectedForeground": "#ffffff",
+    "editorHoverWidget.background": "#060914",
+    "editorHoverWidget.border": "#004d9830",
+    "editorHoverWidget.foreground": "#ffffff",
+    "editorInfo.foreground": "#5dade2",
+    "editorWarning.foreground": "#ffed02",
+    "editorError.foreground": "#a50044",
+    "editorGutter.addedBackground": "#004d9888",
+    "editorGutter.modifiedBackground": "#ffed0288",
+    "editorGutter.deletedBackground": "#a5004488",
+    "editorBracketMatch.background": "#004d9830",
+    "editorBracketMatch.border": "#ffed0288",
+    "editorIndentGuide.background": "#004d9815",
+    "editorIndentGuide.activeBackground": "#004d9840",
+    "editorOverviewRuler.border": "#004d9820",
+    "editorOverviewRuler.errorForeground": "#a50044",
+    "editorOverviewRuler.warningForeground": "#ffed02",
+    "editorOverviewRuler.infoForeground": "#5dade2",
+    "peekView.border": "#a5004444",
+    "peekViewEditor.background": "#060914",
+    "peekViewResult.background": "#04060e",
+    "peekViewTitle.background": "#060914",
+    "peekViewTitleLabel.foreground": "#ffffff",
+    "peekViewTitleDescription.foreground": "#7a8cbb",
+    "badge.background": "#a50044",
+    "badge.foreground": "#ffffff",
+    "breadcrumb.foreground": "#7a8cbb88",
+    "breadcrumb.focusForeground": "#ffffff",
+    "breadcrumb.activeSelectionForeground": "#ffed02",
+    "notificationCenterHeader.background": "#060914",
+    "notificationCenterHeader.foreground": "#ffffff",
+    "notifications.background": "#060914",
+    "notifications.foreground": "#ffffff",
+    "notifications.border": "#004d9820",
+    "extensionButton.prominentBackground": "#a50044",
+    "extensionButton.prominentHoverBackground": "#8a0039",
+    "quickInput.background": "#060914",
+    "quickInput.foreground": "#ffffff",
+    "quickInputTitle.background": "#060914",
+    "quickInputList.focusBackground": "#004d9840",
+    "quickInputList.focusForeground": "#ffffff",
+    "pickerGroup.foreground": "#ffed02",
+    "pickerGroup.border": "#004d9830"
+  },
+  "tokenColors": [
+    {
+      "name": "BESUR Barca - Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "fenced_code.block.language.markdown"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#5a6986aa"
+      }
+    },
+    {
+      "name": "BESUR Barca - Gray / Punctuation / Tags",
+      "scope": [
+        "punctuation.definition.tag",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "meta.tag",
+        "punctuation.separator.inheritance.php",
+        "keyword.other.template",
+        "keyword.other.substitution",
+        "meta.arrow",
+        "storage.type.function.arrow",
+        "keyword.operator.assignment",
+        "punctuation.terminator.rule.css",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "punctuation.section.embedded.begin",
+        "punctuation.section.embedded.end"
+      ],
+      "settings": {
+        "foreground": "#7a8cbb"
+      }
+    },
+    {
+      "name": "BESUR Barca - Blue / Variables",
+      "scope": [
+        "variable",
+        "variable.other",
+        "variable.other.readwrite",
+        "variable.other.object",
+        "string constant.other.placeholder",
+        "meta.block variable.other",
+        "entity.name.method",
+        "variable.function.constructor",
+        "markup.changed",
+        "constant.character.escape",
+        "markup.inline.raw.string.markdown",
+        "entity.other.attribute-name.class.css",
+        "entity.other.inherited-class.ruby",
+        "keyword.control.pseudo-method.ruby",
+        "entity.name.variable.parameter.python",
+        "variable.parameter.function.python",
+        "variable.other.property",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "#5dade2"
+      }
+    },
+    {
+      "name": "BESUR Barca - White / Keywords / Storage",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "keyword.operator",
+        "storage.type",
+        "storage.modifier",
+        "constant.language",
+        "support.constant",
+        "constant.character",
+        "constant.escape",
+        "variable.parameter",
+        "keyword.other.unit",
+        "keyword.other",
+        "markup.heading",
+        "markup.inserted.git_gutter",
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "BESUR Barca - Granate / Functions / Tags",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "variable.function",
+        "support.function",
+        "entity.name.tag",
+        "entity.name",
+        "keyword.control.flow",
+        "keyword.control.conditional",
+        "keyword.control.loop",
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.from",
+        "keyword.control.return",
+        "keyword.control.async",
+        "keyword.control.await",
+        "keyword.control.try",
+        "keyword.control.except",
+        "keyword.control.raise",
+        "invalid",
+        "invalid.illegal",
+        "markup.deleted.git_gutter",
+        "markup.changed.git_gutter",
+        "support.orther.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php",
+        "support.type.sys-types"
+      ],
+      "settings": {
+        "foreground": "#a50044"
+      }
+    },
+    {
+      "name": "BESUR Barca - Blaugrana Blue / Strings",
+      "scope": [
+        "string",
+        "string.quoted",
+        "string.quoted.single",
+        "string.quoted.double",
+        "string.quoted.triple",
+        "string.template",
+        "string.regexp",
+        "string.interpolated",
+        "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.inherited-class",
+        "keyword.other.special-method",
+        "markup.inserted.git_gutter",
+        "variable.language"
+      ],
+      "settings": {
+        "foreground": "#004d98"
+      }
+    },
+    {
+      "name": "BESUR Barca - Gold / Numbers / Decorators",
+      "scope": [
+        "constant.numeric",
+        "constant.numeric.integer",
+        "constant.numeric.float",
+        "constant.numeric.hex",
+        "constant.numeric.octal",
+        "constant.numeric.binary",
+        "tag.decorator entity.name.tag",
+        "tag.decorator punctuation.definition.tag",
+        "entity.name.decorator",
+        "keyword.operator.logical",
+        "constant.language.symbol.ruby",
+        "constant.other.color",
+        "constant.other.symbol",
+        "constant.other.key",
+        "punctuation.definition.annotation",
+        "storage.type.annotation"
+      ],
+      "settings": {
+        "foreground": "#ffed02"
+      }
+    },
+    {
+      "name": "BESUR Barca - Bold",
+      "scope": [
+        "markup.bold",
+        "markup.bold string",
+        "entity.name",
+        "entity.other.inherited-class",
+        "entity.other.attribute-name.class.css",
+        "keyword.other.important.css",
+        "keyword.other.important.scss",
+        "support.class",
+        "support.class.ruby"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "BESUR Barca - Italic",
+      "scope": [
+        "markup.italic",
+        "comment"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "BESUR Barca - Underline",
+      "scope": [
+        "markup.underline",
+        "*url*",
+        "*link*",
+        "*uri*"
+      ],
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "BESUR Barca - Offwhite / Markdown body",
+      "scope": [
+        "text.html.markdown",
+        "punctuation.definition.list_item.markdown",
+        "markup.italic"
+      ],
+      "settings": {
+        "foreground": "#dddddd"
+      }
+    },
+    {
+      "name": "BESUR Barca - Faded imports",
+      "scope": [
+        "meta.import",
+        "punctuation.terminator.statement",
+        "keyword.control.import",
+        "keyword.control.from"
+      ],
+      "settings": {
+        "foreground": "#5a6986aa"
+      }
+    },
+    {
+      "name": "BESUR Barca - Markdown Link",
+      "scope": [
+        "string.other.link.title.markdown",
+        "constant.other.reference.link.markdown"
+      ],
+      "settings": {
+        "foreground": "#5dade2"
+      }
+    },
+    {
+      "name": "BESUR Barca - Markdown Quote/Separator",
+      "scope": [
+        "markup.quote",
+        "markup.quote punctuation.definition.blockquote.markdown",
+        "meta.separator",
+        "markup.table"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#7a8cbb"
+      }
+    },
+    {
+      "name": "BESUR Barca - Markup Raw",
+      "scope": [
+        "markup.raw.block"
+      ],
+      "settings": {
+        "foreground": "#cccccc"
+      }
+    },
+    {
+      "name": "BESUR Barca - Bold-Italic",
+      "scope": [
+        "markup.bold markup.italic",
+        "markup.italic markup.bold",
+        "markup.quote markup.bold"
+      ],
+      "settings": {
+        "fontStyle": "bold italic",
+        "foreground": "#cccccc"
+      }
+    },
+    {
+      "name": "BESUR Barca - Support Types / CSS Properties",
+      "scope": [
+        "support.type",
+        "source.css support.type.property-name",
+        "source.sass support.type.property-name",
+        "source.scss support.type.property-name",
+        "source.less support.type.property-name",
+        "source.stylus support.type.property-name",
+        "source.postcss support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#7a8cbb"
+      }
+    },
+    {
+      "name": "BESUR Barca - CSS Selectors",
+      "scope": [
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.id",
+        "entity.name.tag.css"
+      ],
+      "settings": {
+        "foreground": "#a50044"
+      }
+    },
+    {
+      "name": "BESUR Barca - CSS Values",
+      "scope": [
+        "support.constant.property-value.css",
+        "support.constant.font-name.css",
+        "support.constant.media-type.media.css",
+        "support.constant.media.css",
+        "constant.other.color.rgb-value.css",
+        "constant.other.color.rgb-value.hex.css"
+      ],
+      "settings": {
+        "foreground": "#004d98"
+      }
+    },
+    {
+      "name": "BESUR Barca - CSS Units",
+      "scope": [
+        "keyword.other.unit.px.css",
+        "keyword.other.unit.em.css",
+        "keyword.other.unit.rem.css",
+        "keyword.other.unit.vh.css",
+        "keyword.other.unit.vw.css",
+        "keyword.other.unit.pt.css",
+        "keyword.other.unit.percent.css",
+        "keyword.other.unit.css"
+      ],
+      "settings": {
+        "foreground": "#ffed02"
+      }
+    },
+    {
+      "name": "BESUR Barca - SQL Keywords",
+      "scope": [
+        "keyword.other.sql",
+        "keyword.other.DML.sql",
+        "keyword.other.DDL.sql",
+        "keyword.other.DML.II.sql",
+        "keyword.other.create.sql",
+        "keyword.other.drop.sql",
+        "keyword.other.select.sql",
+        "keyword.other.insert.sql",
+        "keyword.other.update.sql",
+        "keyword.other.delete.sql",
+        "keyword.other.where.sql",
+        "keyword.other.from.sql",
+        "keyword.other.join.sql",
+        "keyword.other.on.sql",
+        "keyword.other.as.sql",
+        "keyword.other.order.sql",
+        "keyword.other.group.sql",
+        "keyword.other.by.sql",
+        "keyword.other.having.sql",
+        "keyword.other.limit.sql",
+        "keyword.other.offset.sql",
+        "keyword.other.union.sql",
+        "keyword.other.into.sql",
+        "keyword.other.values.sql",
+        "keyword.other.set.sql",
+        "keyword.other.table.sql",
+        "support.function.aggregate.sql",
+        "support.function.window.sql"
+      ],
+      "settings": {
+        "foreground": "#a50044",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "BESUR Barca - SQL Types",
+      "scope": [
+        "storage.type.sql",
+        "support.type.sql"
+      ],
+      "settings": {
+        "foreground": "#5dade2"
+      }
+    },
+    {
+      "name": "BESUR Barca - SQL Functions",
+      "scope": [
+        "support.function.sql",
+        "support.function.scalar.sql",
+        "support.function.string.sql",
+        "support.function.datetime.sql",
+        "support.function.mathematical.sql"
+      ],
+      "settings": {
+        "foreground": "#ffed02"
+      }
+    },
+    {
+      "name": "BESUR Barca - SQL Operators",
+      "scope": [
+        "keyword.operator.sql",
+        "keyword.operator.comparison.sql",
+        "keyword.operator.logical.sql",
+        "keyword.operator.star.sql"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "BESUR Barca - XML Tags",
+      "scope": [
+        "entity.name.tag.xml",
+        "entity.name.tag.localname.xml",
+        "entity.name.tag.namespace.xml"
+      ],
+      "settings": {
+        "foreground": "#a50044"
+      }
+    },
+    {
+      "name": "BESUR Barca - XML Attributes",
+      "scope": [
+        "entity.other.attribute-name.xml",
+        "entity.other.attribute-name.localname.xml",
+        "entity.other.attribute-name.namespace.xml"
+      ],
+      "settings": {
+        "foreground": "#5dade2"
+      }
+    },
+    {
+      "name": "BESUR Barca - XML Namespace",
+      "scope": [
+        "entity.name.tag.namespace.prefix.xml",
+        "entity.other.attribute-name.namespace.prefix.xml"
+      ],
+      "settings": {
+        "foreground": "#ffed02"
+      }
+    },
+    {
+      "name": "BESUR Barca - YAML Keys",
+      "scope": [
+        "entity.name.tag.yaml",
+        "support.type.property-name.yaml"
+      ],
+      "settings": {
+        "foreground": "#a50044"
+      }
+    },
+    {
+      "name": "BESUR Barca - YAML Values",
+      "scope": [
+        "string.unquoted.yaml",
+        "string.quoted.single.yaml",
+        "string.quoted.double.yaml"
+      ],
+      "settings": {
+        "foreground": "#004d98"
+      }
+    },
+    {
+      "name": "BESUR Barca - YAML Anchors/Aliases",
+      "scope": [
+        "entity.name.type.anchor.yaml",
+        "variable.other.alias.yaml",
+        "punctuation.definition.alias.yaml"
+      ],
+      "settings": {
+        "foreground": "#ffed02"
+      }
+    },
+    {
+      "name": "BESUR Barca - TOML Tables",
+      "scope": [
+        "support.type.property-name.table.toml",
+        "entity.name.section.group-title.toml"
+      ],
+      "settings": {
+        "foreground": "#a50044",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "BESUR Barca - TOML Keys",
+      "scope": [
+        "support.type.property-name.toml"
+      ],
+      "settings": {
+        "foreground": "#5dade2"
+      }
+    },
+    {
+      "name": "BESUR Barca - JSON Keys Level 1-5",
+      "scope": [
+        "support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#a50044"
+      }
+    },
+    {
+      "name": "BESUR Barca - JSON Values",
+      "scope": [
+        "string.quoted.double.json"
+      ],
+      "settings": {
+        "foreground": "#004d98"
+      }
+    },
+    {
+      "name": "BESUR Barca - Python Decorators",
+      "scope": [
+        "entity.name.function.decorator.python",
+        "punctuation.definition.decorator.python"
+      ],
+      "settings": {
+        "foreground": "#ffed02",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "BESUR Barca - Python Self/Cls",
+      "scope": [
+        "variable.parameter.function.language.special.self.python",
+        "variable.parameter.function.language.special.cls.python"
+      ],
+      "settings": {
+        "foreground": "#a50044",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "BESUR Barca - Python Magic Methods",
+      "scope": [
+        "support.function.magic.python"
+      ],
+      "settings": {
+        "foreground": "#5dade2"
+      }
+    },
+    {
+      "name": "BESUR Barca - Rust Macros",
+      "scope": [
+        "entity.name.function.macro.rust",
+        "entity.name.function.macro.rules.rust"
+      ],
+      "settings": {
+        "foreground": "#ffed02"
+      }
+    },
+    {
+      "name": "BESUR Barca - Rust Lifetime",
+      "scope": [
+        "storage.modifier.lifetime.rust",
+        "entity.name.type.lifetime.rust"
+      ],
+      "settings": {
+        "foreground": "#a50044",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "BESUR Barca - Go Package",
+      "scope": [
+        "entity.name.package.go"
+      ],
+      "settings": {
+        "foreground": "#ffed02"
+      }
+    },
+    {
+      "name": "BESUR Barca - Go Types",
+      "scope": [
+        "storage.type.go",
+        "support.type.builtin.go",
+        "entity.name.type.go"
+      ],
+      "settings": {
+        "foreground": "#5dade2"
+      }
+    },
+    {
+      "name": "BESUR Barca - PHP Variables",
+      "scope": [
+        "variable.other.php",
+        "punctuation.definition.variable.php"
+      ],
+      "settings": {
+        "foreground": "#5dade2"
+      }
+    },
+    {
+      "name": "BESUR Barca - Bash Variables",
+      "scope": [
+        "variable.other.normal.shell",
+        "variable.other.positional.shell",
+        "variable.other.bracket.shell",
+        "punctuation.definition.variable.shell"
+      ],
+      "settings": {
+        "foreground": "#5dade2"
+      }
+    },
+    {
+      "name": "BESUR Barca - Bash Commands",
+      "scope": [
+        "support.function.builtin.shell",
+        "entity.name.command.shell"
+      ],
+      "settings": {
+        "foreground": "#a50044"
+      }
+    },
+    {
+      "name": "BESUR Barca - Dockerfile Instructions",
+      "scope": [
+        "keyword.other.special-method.dockerfile",
+        "keyword.control.dockerfile"
+      ],
+      "settings": {
+        "foreground": "#a50044",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "BESUR Barca - GraphQL Types",
+      "scope": [
+        "support.type.graphql",
+        "entity.name.type.graphql"
+      ],
+      "settings": {
+        "foreground": "#5dade2"
+      }
+    },
+    {
+      "name": "BESUR Barca - GraphQL Fields",
+      "scope": [
+        "variable.graphql",
+        "entity.name.fragment.graphql"
+      ],
+      "settings": {
+        "foreground": "#ffed02"
+      }
+    },
+    {
+      "name": "BESUR Barca - Prisma Models",
+      "scope": [
+        "entity.name.type.model.prisma",
+        "entity.name.type.enum.prisma"
+      ],
+      "settings": {
+        "foreground": "#a50044",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "BESUR Barca - Prisma Fields",
+      "scope": [
+        "variable.other.assignment.prisma"
+      ],
+      "settings": {
+        "foreground": "#5dade2"
+      }
+    },
+    {
+      "name": "BESUR Barca - Prisma Types",
+      "scope": [
+        "support.type.primitive.prisma",
+        "entity.name.type.prisma"
+      ],
+      "settings": {
+        "foreground": "#ffed02"
+      }
+    }
+  ]
+}

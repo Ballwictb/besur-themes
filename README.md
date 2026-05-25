@@ -41,6 +41,10 @@ Built on a cyberpunk-inspired palette, it covers everything from JavaScript to S
 
 ![BESUR Barca theme preview](https://github.com/Ballwictb/besur-themes/blob/main/web/images/examples/besur_barcaa.png?raw=true)
 
+**BESUR Ocean**
+
+![BESUR Ocean theme preview](https://github.com/Ballwictb/besur-themes/blob/main/web/images/examples/besur_ocean.png?raw=true)
+
 ---
 
 ## Color Palette

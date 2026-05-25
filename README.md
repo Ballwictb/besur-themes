@@ -20,6 +20,7 @@ Built on a cyberpunk-inspired palette, it covers everything from JavaScript to S
 | **BESUR Soft**  | Slightly muted version, easier on the eyes for long sessions |
 | **BESUR Light** | Same intense colors adapted for a white background           |
 | **BESUR Barca** | Inspired by FC Barcelona's colors                            |
+| **BESUR Ocean** | Love blue? This is your theme                                |
 
 ---
 

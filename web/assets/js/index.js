@@ -9,7 +9,7 @@ const TRANSLATIONS = {
         github: "Ver en GitHub",
         langSection: "Lenguajes soportados",
         langDesc: "Tokens dedicados para cada uno. Nada de colores genéricos.",
-        variantsSection: "3 variantes",
+        variantsSection: "5 variantes",
         footerBy: "Hecho por",
         footerRepo: "Ver repositorio",
         footerIssue: "Abrir issue",
@@ -18,7 +18,8 @@ const TRANSLATIONS = {
             { name: "BESUR", desc: "Neon puro. El original." },
             { name: "BESUR Soft", desc: "Más suave. Para sesiones largas." },
             { name: "BESUR Light", desc: "Mismo color. Fondo blanco." },
-            { name: "BESUR Barca", desc: "Inspirado en los colores de FC Barcelona." }
+            { name: "BESUR Barca", desc: "Inspirado en los colores de FC Barcelona." },
+            { name: "BESUR Ocean", desc: "¿Te encanta el azul? Este es tu tema" },
         ],
     },
     en: {
@@ -28,7 +29,7 @@ const TRANSLATIONS = {
         github: "View on GitHub",
         langSection: "Supported languages",
         langDesc: "Dedicated tokens for each one. No generic colors.",
-        variantsSection: "3 variants",
+        variantsSection: "5 variants",
         footerBy: "Made by",
         footerRepo: "View repository",
         footerIssue: "Open issue",
@@ -37,7 +38,8 @@ const TRANSLATIONS = {
             { name: "BESUR", desc: "Pure neon. The original." },
             { name: "BESUR Soft", desc: "Softer tones. For long sessions." },
             { name: "BESUR Light", desc: "Same colors. White background." },
-            { name: "BESUR Barca", desc: "Inspired by FC Barcelona's colors." }
+            { name: "BESUR Barca", desc: "Inspired by FC Barcelona's colors." },
+            { name: "BESUR Ocean", desc: "Love blue? This is your theme" },
         ],
     },
 }
@@ -48,6 +50,7 @@ const THEME_COLORS = {
     "besur-soft": { bg: "#141c25", surface: "#1a2535", comment: "#7a8da8", keyword: "#e0005e", string: "#99d630", fn: "#3acce8", num: "#dfa018", text: "#d8dce8" },
     "besur-light": { bg: "#f8fafc", surface: "#edf0f7", comment: "#7a8da8", keyword: "#cc0055", string: "#4a7c00", fn: "#006ea8", num: "#a06800", text: "#1a1f2e" },
     "besur-barca": { bg: "#0a0d1a", surface: "#003a70", comment: "#7a8da8", keyword: "#a50044", string: "#004d98", fn: "#a50044", num: "#ffed02", text: "#ffed02" },
+    "besur-ocean": { bg: "#0a1a2a", surface: "#1a3a5a", comment: "#7a8da8", keyword: "#0066cc", string: "#0099cc", fn: "#0066cc", num: "#ffcc00", text: "#ffffff" },
 }
 
 // ── code snippets ──────────────────────────────────────────────────────────────

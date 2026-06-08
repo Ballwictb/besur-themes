@@ -1,6 +1,6 @@
 {
   "name": "besur-themes",
-  "displayName": "BESUR Themes",
+  "displayName": "BESUR",
   "publisher": "Ballwictb",
   "repository": {
     "type": "git",
@@ -12,12 +12,10 @@
   "categories": [
     "Themes"
   ],
-  "description": "Vibrant color themes (dark, soft, light) with extended language support: JS/TS, Python, Rust, Go, PHP, SQL, XML, YAML, TOML, Markdown, Bash, and more.",
-  "version": "1.0.9",
+  "description": "Vibrant color themes — BESUR, Soft, Light, Barca, Ocean & Rainbow — with extended language support: JS/TS, Python, Rust, Go, PHP, SQL, XML, YAML, TOML, Markdown, Bash, and more.",
+  "version": "1.0.13",
   "icon": "icon.png",
   "keywords": [
-    "theme",
-    "themes",
     "neon",
     "dark",
     "light",
@@ -35,7 +33,11 @@
     "barca",
     "barcelona",
     "blaugrana",
-    "football"
+    "football",
+    "ocean",
+    "blue",
+    "rainbow",
+    "colorful"
   ],
   "galleryBanner": {
     "color": "#0e141a",
@@ -70,6 +72,16 @@
         "label": "BESUR Barca",
         "uiTheme": "vs-dark",
         "path": "./themes/besur-barca-color-theme.json"
+      },
+      {
+        "label": "BESUR Ocean",
+        "uiTheme": "vs-dark",
+        "path": "./themes/besur-ocean-color-theme.json"
+      },
+      {
+        "label": "BESUR Rainbow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/besur-rainbow-color-theme.json"
       }
     ]
   }

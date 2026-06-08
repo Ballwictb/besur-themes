@@ -20,6 +20,7 @@ const TRANSLATIONS = {
             { name: "BESUR Light", desc: "Mismo color. Fondo blanco." },
             { name: "BESUR Barca", desc: "Inspirado en los colores de FC Barcelona." },
             { name: "BESUR Ocean", desc: "¿Te encanta el azul? Este es tu tema" },
+            { name: "BESUR Rainbow", desc: "¿Nunca has creído en los duendes? Este tema es tu tesoro al final del arcoíris" },
         ],
     },
     en: {
@@ -40,6 +41,7 @@ const TRANSLATIONS = {
             { name: "BESUR Light", desc: "Same colors. White background." },
             { name: "BESUR Barca", desc: "Inspired by FC Barcelona's colors." },
             { name: "BESUR Ocean", desc: "Love blue? This is your theme" },
+            { name: "BESUR Rainbow", desc: "Never believed in leprechauns? This theme is your treasure at the end of the rainbow" },
         ],
     },
 }
@@ -51,6 +53,7 @@ const THEME_COLORS = {
     "besur-light": { bg: "#f8fafc", surface: "#edf0f7", comment: "#7a8da8", keyword: "#cc0055", string: "#4a7c00", fn: "#006ea8", num: "#a06800", text: "#1a1f2e" },
     "besur-barca": { bg: "#0a0d1a", surface: "#003a70", comment: "#7a8da8", keyword: "#a50044", string: "#004d98", fn: "#a50044", num: "#ffed02", text: "#ffed02" },
     "besur-ocean": { bg: "#0a1a2a", surface: "#1a3a5a", comment: "#7a8da8", keyword: "#0066cc", string: "#0099cc", fn: "#0066cc", num: "#ffcc00", text: "#ffffff" },
+    "besur-rainbow": { bg: "#0d0d14", surface: "#1a1a2e", comment: "#8888aa", keyword: "#ff8800", string: "#00ff88", fn: "#ff3366", num: "#ffff00", text: "#f0f0f5" }
 }
 
 // ── code snippets ──────────────────────────────────────────────────────────────

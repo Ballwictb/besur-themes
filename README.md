@@ -22,6 +22,8 @@ Built on a cyberpunk-inspired palette, it covers everything from JavaScript to S
 | **BESUR Barca** | Inspired by FC Barcelona's colors                            |
 | **BESUR Ocean** | Love blue? This is your theme                                |
 | **BESUR Rainbow** | Never believed in leprechauns? This theme is your treasure at the end of the rainbow                                |
+| **BESUR Spain** | Red, gold, and pure energy. This theme feels like Spain                                |
+| **BESUR Argentina** | Sky blue, white, and a little magic from the south                                |
 
 ---
 
@@ -50,6 +52,14 @@ Built on a cyberpunk-inspired palette, it covers everything from JavaScript to S
 **BESUR Rainbow**
 
 ![BESUR Rainbow theme preview](https://github.com/Ballwictb/besur-themes/blob/main/web/images/examples/besur_rainbow.png?raw=true)
+
+**BESUR Spain**
+
+![BESUR Rainbow theme preview](https://github.com/Ballwictb/besur-themes/blob/main/web/images/examples/besur_spain.png?raw=true)
+
+**BESUR Argentina**
+
+![BESUR Rainbow theme preview](https://github.com/Ballwictb/besur-themes/blob/main/web/images/examples/besur_argentina.png?raw=true)
 
 ---
 

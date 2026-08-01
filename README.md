@@ -55,11 +55,11 @@ Built on a cyberpunk-inspired palette, it covers everything from JavaScript to S
 
 **BESUR Spain**
 
-![BESUR Rainbow theme preview](https://github.com/Ballwictb/besur-themes/blob/main/web/images/examples/besur_spain.png?raw=true)
+![BESUR Spain theme preview](https://github.com/Ballwictb/besur-themes/blob/main/web/images/examples/besur_spain.png?raw=true)
 
 **BESUR Argentina**
 
-![BESUR Rainbow theme preview](https://github.com/Ballwictb/besur-themes/blob/main/web/images/examples/besur_argentina.png?raw=true)
+![BESUR Argentina theme preview](https://github.com/Ballwictb/besur-themes/blob/main/web/images/examples/besur_argentina.png?raw=true)
 
 ---
 

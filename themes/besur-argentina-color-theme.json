@@ -1,0 +1,965 @@
+{
+  "name": "BESUR Argentina",
+  "type": "light",
+  "colors": {
+    "editor.background": "#eef7ff",
+    "editor.foreground": "#0d2438",
+    "editor.selectionBackground": "#6cb4ee55",
+    "editor.selectionForeground": "#0d2438",
+    "editor.inactiveSelectionBackground": "#6cb4ee30",
+    "editor.selectionHighlightBackground": "#f6b40e40",
+    "editor.selectionHighlightBorder": "#e09a00aa",
+    "editor.wordHighlightBackground": "#6cb4ee40",
+    "editor.wordHighlightBorder": "#3a90d8aa",
+    "editor.wordHighlightStrongBackground": "#f6b40e40",
+    "editor.wordHighlightStrongBorder": "#e09a00aa",
+    "editor.findMatchBackground": "#f6b40e77",
+    "editor.findMatchBorder": "#e09a00",
+    "editor.findMatchHighlightBackground": "#f6b40e44",
+    "editor.findMatchHighlightBorder": "#e09a00aa",
+    "editor.hoverHighlightBackground": "#6cb4ee30",
+    "editor.lineHighlightBackground": "#6cb4ee18",
+    "editor.lineHighlightBorder": "#00000000",
+    "editor.rangeHighlightBackground": "#6cb4ee20",
+    "selection.background": "#6cb4ee66",
+    "activityBarBadge.background": "#2a8fd8",
+    "activityBarBadge.foreground": "#ffffff",
+    "sideBarTitle.foreground": "#0d2438cc",
+    "sideBar.background": "#dceefc",
+    "sideBar.foreground": "#0d2438",
+    "sideBar.border": "#6cb4ee40",
+    "sideBarSectionHeader.background": "#cfe6f9",
+    "sideBarSectionHeader.foreground": "#0d2438",
+    "activityBar.background": "#cfe6f9",
+    "activityBar.border": "#6cb4ee40",
+    "activityBar.foreground": "#0d2438",
+    "activityBar.inactiveForeground": "#0d243866",
+    "statusBar.background": "#6cb4ee",
+    "statusBar.noFolderBackground": "#6cb4ee",
+    "statusBar.debuggingBackground": "#f6b40e",
+    "statusBar.debuggingForeground": "#0d2438",
+    "statusBar.foreground": "#0d2438",
+    "statusBar.border": "#4f9fe0",
+    "tab.border": "#00000000",
+    "tab.activeBackground": "#eef7ff",
+    "tab.activeForeground": "#0d2438",
+    "tab.activeBorderTop": "#2a8fd8",
+    "tab.inactiveBackground": "#dceefc",
+    "tab.inactiveForeground": "#0d243899",
+    "editorGroupHeader.tabsBorder": "#6cb4ee40",
+    "editorGroupHeader.tabsBackground": "#dceefc",
+    "editorLineNumber.foreground": "#7ba3c4",
+    "editorLineNumber.activeForeground": "#2a8fd8",
+    "editorCursor.foreground": "#e09a00",
+    "button.background": "#2a8fd8",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#1f7ec4",
+    "input.background": "#ffffff",
+    "input.border": "#6cb4ee66",
+    "input.foreground": "#0d2438",
+    "input.placeholderForeground": "#0d243888",
+    "panel.border": "#6cb4ee40",
+    "panel.background": "#dceefc",
+    "panelTitle.activeForeground": "#0d2438",
+    "panelTitle.activeBorder": "#e09a00",
+    "panelTitle.inactiveForeground": "#0d243899",
+    "dropdown.background": "#ffffff",
+    "dropdown.border": "#6cb4ee66",
+    "dropdown.foreground": "#0d2438",
+    "welcomePage.buttonBackground": "#dceefc",
+    "welcomePage.buttonHoverBackground": "#cfe6f9",
+    "focusBorder": "#2a8fd888",
+    "menu.border": "#6cb4ee66",
+    "menu.background": "#ffffff",
+    "menu.foreground": "#0d2438",
+    "menu.selectionBackground": "#6cb4ee55",
+    "menu.selectionForeground": "#0d2438",
+    "menu.separatorBackground": "#6cb4ee40",
+    "titleBar.border": "#6cb4ee40",
+    "titleBar.activeBackground": "#cfe6f9",
+    "titleBar.inactiveBackground": "#dceefc",
+    "titleBar.activeForeground": "#0d2438",
+    "titleBar.inactiveForeground": "#0d243899",
+    "checkbox.border": "#6cb4ee66",
+    "checkbox.background": "#ffffff",
+    "checkbox.foreground": "#0d2438",
+    "diffEditor.border": "#6cb4ee40",
+    "diffEditor.insertedTextBackground": "#6cb4ee30",
+    "diffEditor.removedTextBackground": "#f6b40e30",
+    "terminalCursor.foreground": "#e09a00",
+    "terminal.background": "#eef7ff",
+    "terminal.foreground": "#0d2438",
+    "terminal.ansiBlack": "#0d2438",
+    "terminal.ansiBlue": "#2a8fd8",
+    "terminal.ansiCyan": "#0288b8",
+    "terminal.ansiGreen": "#0e8a6e",
+    "terminal.ansiMagenta": "#2a6fd8",
+    "terminal.ansiRed": "#d84343",
+    "terminal.ansiWhite": "#0d2438",
+    "terminal.ansiYellow": "#c78500",
+    "terminal.ansiBrightBlack": "#5a7898",
+    "terminal.ansiBrightBlue": "#1f7ec4",
+    "terminal.ansiBrightCyan": "#0298cc",
+    "terminal.ansiBrightGreen": "#12a082",
+    "terminal.ansiBrightMagenta": "#1f5fc4",
+    "terminal.ansiBrightRed": "#e05050",
+    "terminal.ansiBrightWhite": "#000000",
+    "terminal.ansiBrightYellow": "#e09a00",
+    "gitDecoration.modifiedResourceForeground": "#c78500",
+    "gitDecoration.untrackedResourceForeground": "#0e8a6e",
+    "gitDecoration.ignoredResourceForeground": "#7ba3c4",
+    "gitDecoration.deletedResourceForeground": "#d84343",
+    "gitDecoration.conflictingResourceForeground": "#c78500",
+    "list.foreground": "#0d2438",
+    "list.activeSelectionBackground": "#6cb4ee55",
+    "list.activeSelectionForeground": "#0d2438",
+    "list.inactiveSelectionBackground": "#6cb4ee35",
+    "list.inactiveSelectionForeground": "#0d2438",
+    "list.hoverBackground": "#6cb4ee25",
+    "list.hoverForeground": "#0d2438",
+    "list.focusBackground": "#6cb4ee55",
+    "list.focusForeground": "#0d2438",
+    "list.highlightForeground": "#e09a00",
+    "editorRuler.foreground": "#6cb4ee30",
+    "widget.shadow": "#0d243822",
+    "editorGroup.border": "#6cb4ee40",
+    "scrollbarSlider.background": "#6cb4ee45",
+    "scrollbarSlider.hoverBackground": "#6cb4ee66",
+    "scrollbarSlider.activeBackground": "#6cb4ee88",
+    "scrollbar.shadow": "#00000000",
+    "window.activeBorder": "#6cb4ee",
+    "editorWidget.background": "#ffffff",
+    "editorWidget.border": "#6cb4ee66",
+    "editorWidget.foreground": "#0d2438",
+    "editorSuggestWidget.background": "#ffffff",
+    "editorSuggestWidget.border": "#6cb4ee66",
+    "editorSuggestWidget.selectedBackground": "#6cb4ee55",
+    "editorSuggestWidget.highlightForeground": "#e09a00",
+    "editorSuggestWidget.foreground": "#0d2438",
+    "editorSuggestWidget.selectedForeground": "#0d2438",
+    "editorHoverWidget.background": "#ffffff",
+    "editorHoverWidget.border": "#6cb4ee66",
+    "editorHoverWidget.foreground": "#0d2438",
+    "editorInfo.foreground": "#0288b8",
+    "editorWarning.foreground": "#c78500",
+    "editorError.foreground": "#d84343",
+    "editorGutter.addedBackground": "#0e8a6eaa",
+    "editorGutter.modifiedBackground": "#c78500aa",
+    "editorGutter.deletedBackground": "#d84343aa",
+    "editorBracketMatch.background": "#f6b40e40",
+    "editorBracketMatch.border": "#e09a00aa",
+    "editorIndentGuide.background": "#6cb4ee25",
+    "editorIndentGuide.activeBackground": "#6cb4ee55",
+    "editorOverviewRuler.border": "#6cb4ee40",
+    "editorOverviewRuler.errorForeground": "#d84343",
+    "editorOverviewRuler.warningForeground": "#c78500",
+    "editorOverviewRuler.infoForeground": "#0288b8",
+    "peekView.border": "#2a8fd888",
+    "peekViewEditor.background": "#dceefc",
+    "peekViewResult.background": "#cfe6f9",
+    "peekViewTitle.background": "#dceefc",
+    "peekViewTitleLabel.foreground": "#0d2438",
+    "peekViewTitleDescription.foreground": "#5a7898",
+    "badge.background": "#2a8fd8",
+    "badge.foreground": "#ffffff",
+    "breadcrumb.foreground": "#5a7898",
+    "breadcrumb.focusForeground": "#0d2438",
+    "breadcrumb.activeSelectionForeground": "#e09a00",
+    "breadcrumb.background": "#eef7ff",
+    "notificationCenterHeader.background": "#dceefc",
+    "notificationCenterHeader.foreground": "#0d2438",
+    "notifications.background": "#ffffff",
+    "notifications.foreground": "#0d2438",
+    "notifications.border": "#6cb4ee40",
+    "notificationsInfoIcon.foreground": "#0288b8",
+    "notificationsWarningIcon.foreground": "#c78500",
+    "notificationsErrorIcon.foreground": "#d84343",
+    "extensionButton.prominentBackground": "#2a8fd8",
+    "extensionButton.prominentForeground": "#ffffff",
+    "extensionButton.prominentHoverBackground": "#1f7ec4",
+    "quickInput.background": "#ffffff",
+    "quickInput.foreground": "#0d2438",
+    "quickInputTitle.background": "#dceefc",
+    "quickInputList.focusBackground": "#6cb4ee55",
+    "quickInputList.focusForeground": "#0d2438",
+    "pickerGroup.foreground": "#e09a00",
+    "pickerGroup.border": "#6cb4ee40",
+    "editorBracketHighlight.foreground1": "#2a8fd8",
+    "editorBracketHighlight.foreground2": "#e09a00",
+    "editorBracketHighlight.foreground3": "#0288b8",
+    "editorBracketHighlight.foreground4": "#0e8a6e",
+    "editorBracketHighlight.foreground5": "#c78500",
+    "editorBracketHighlight.foreground6": "#2a6fd8"
+  },
+  "tokenColors": [
+    {
+      "name": "Argentina - Comment",
+      "scope": [
+        "comment",
+        "comment.line",
+        "comment.block",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#6a8aa8"
+      }
+    },
+    {
+      "name": "Argentina - Punctuation / Meta",
+      "scope": [
+        "punctuation.definition.tag",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "meta.tag",
+        "punctuation.separator.inheritance.php",
+        "keyword.other.template",
+        "keyword.other.substitution",
+        "meta.arrow",
+        "storage.type.function.arrow",
+        "keyword.operator.assignment",
+        "punctuation.terminator.rule.css",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "punctuation.section.embedded.begin",
+        "punctuation.section.embedded.end"
+      ],
+      "settings": {
+        "foreground": "#3d6285"
+      }
+    },
+    {
+      "name": "Argentina - Celeste / Functions / Tags",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call",
+        "entity.name.tag",
+        "entity.name.tag.html",
+        "entity.name.tag.css",
+        "support.class.component",
+        "support.class.component.tsx",
+        "support.class.component.jsx",
+        "punctuation.definition.heading.markdown",
+        "entity.name.section.markdown"
+      ],
+      "settings": {
+        "foreground": "#1f7ec4"
+      }
+    },
+    {
+      "name": "Argentina - Sun Gold / Keywords / Storage",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "keyword.operator.new",
+        "keyword.operator.expression",
+        "keyword.operator.logical",
+        "keyword.operator.delete",
+        "storage",
+        "storage.type",
+        "storage.modifier",
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.from",
+        "keyword.control.default",
+        "keyword.control.as"
+      ],
+      "settings": {
+        "foreground": "#c78500"
+      }
+    },
+    {
+      "name": "Argentina - Amber / Numbers / Constants",
+      "scope": [
+        "constant.numeric",
+        "constant.numeric.decimal",
+        "constant.numeric.integer",
+        "constant.numeric.float",
+        "constant.numeric.hex",
+        "constant.language",
+        "constant.language.boolean",
+        "constant.language.null",
+        "constant.language.undefined",
+        "support.constant",
+        "variable.other.constant"
+      ],
+      "settings": {
+        "foreground": "#b06a00"
+      }
+    },
+    {
+      "name": "Argentina - Sky / Classes / Types",
+      "scope": [
+        "entity.name.type",
+        "entity.name.type.class",
+        "entity.name.class",
+        "support.class",
+        "entity.other.inherited-class",
+        "entity.name.type.interface",
+        "entity.name.type.enum",
+        "entity.name.type.alias",
+        "meta.type.annotation",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#0288b8"
+      }
+    },
+    {
+      "name": "Argentina - Teal / Strings",
+      "scope": [
+        "string",
+        "string.quoted",
+        "string.quoted.single",
+        "string.quoted.double",
+        "string.quoted.template",
+        "string.template",
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end"
+      ],
+      "settings": {
+        "foreground": "#0e8a6e"
+      }
+    },
+    {
+      "name": "Argentina - Deep Sky / Variables / Properties",
+      "scope": [
+        "variable",
+        "variable.other",
+        "variable.other.readwrite",
+        "meta.object-literal.key",
+        "entity.name.tag.yaml",
+        "entity.other.attribute-name",
+        "support.type.property-name",
+        "support.type.property-name.css",
+        "support.type.property-name.json",
+        "meta.property-name"
+      ],
+      "settings": {
+        "foreground": "#2a6fd8"
+      }
+    },
+    {
+      "name": "Argentina - Azure / Parameters / Attributes",
+      "scope": [
+        "variable.parameter",
+        "meta.parameter",
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.tsx",
+        "variable.other.property",
+        "meta.attribute"
+      ],
+      "settings": {
+        "foreground": "#0277c0"
+      }
+    },
+    {
+      "name": "Argentina - Indigo / Self / This / Special",
+      "scope": [
+        "variable.language",
+        "variable.language.this",
+        "variable.language.self",
+        "variable.language.super",
+        "keyword.other.this",
+        "entity.name.type.module"
+      ],
+      "settings": {
+        "foreground": "#4a4fd8"
+      }
+    },
+    {
+      "name": "Argentina - Amber / Decorators / Annotations",
+      "scope": [
+        "meta.decorator",
+        "punctuation.decorator",
+        "entity.name.function.decorator",
+        "meta.annotation",
+        "storage.type.annotation",
+        "punctuation.definition.annotation"
+      ],
+      "settings": {
+        "foreground": "#b06a00"
+      }
+    },
+    {
+      "name": "Argentina - Deep Sky / Operators",
+      "scope": [
+        "keyword.operator",
+        "keyword.operator.arithmetic",
+        "keyword.operator.comparison",
+        "keyword.operator.relational",
+        "keyword.operator.ternary",
+        "keyword.operator.spread",
+        "keyword.operator.rest",
+        "keyword.operator.type",
+        "keyword.operator.optional"
+      ],
+      "settings": {
+        "foreground": "#0267a8"
+      }
+    },
+    {
+      "name": "Argentina - Olive Gold / Regex / Special Strings",
+      "scope": [
+        "string.regexp",
+        "constant.character.escape",
+        "constant.other.character-class.regexp",
+        "keyword.operator.quantifier.regexp",
+        "punctuation.definition.group.regexp"
+      ],
+      "settings": {
+        "foreground": "#8a6a00"
+      }
+    },
+    {
+      "name": "Argentina - Text / Default",
+      "scope": [
+        "text",
+        "source",
+        "meta.brace",
+        "punctuation.separator",
+        "punctuation.terminator"
+      ],
+      "settings": {
+        "foreground": "#0d2438"
+      }
+    },
+    {
+      "name": "Argentina - HTML Doctype",
+      "scope": [
+        "meta.tag.sgml.doctype",
+        "entity.name.tag.doctype",
+        "meta.tag.sgml.doctype.html"
+      ],
+      "settings": {
+        "foreground": "#c78500"
+      }
+    },
+    {
+      "name": "Argentina - CSS Selectors",
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css",
+        "entity.name.tag.css"
+      ],
+      "settings": {
+        "foreground": "#1f7ec4"
+      }
+    },
+    {
+      "name": "Argentina - CSS Values",
+      "scope": [
+        "support.constant.property-value.css",
+        "constant.other.color.rgb-value.css",
+        "constant.other.color.rgb-value.hex.css",
+        "support.constant.color.w3c-standard-color-name.css",
+        "meta.property-value.css"
+      ],
+      "settings": {
+        "foreground": "#0e8a6e"
+      }
+    },
+    {
+      "name": "Argentina - CSS Units",
+      "scope": [
+        "keyword.other.unit.css",
+        "keyword.other.unit.px.css",
+        "keyword.other.unit.rem.css",
+        "keyword.other.unit.em.css",
+        "keyword.other.unit.percentage.css"
+      ],
+      "settings": {
+        "foreground": "#b06a00"
+      }
+    },
+    {
+      "name": "Argentina - CSS Pseudo",
+      "scope": [
+        "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.attribute-name.pseudo-element.css"
+      ],
+      "settings": {
+        "foreground": "#c78500"
+      }
+    },
+    {
+      "name": "Argentina - SQL Keywords",
+      "scope": [
+        "keyword.other.DML.sql",
+        "keyword.other.DDL.sql",
+        "keyword.other.sql",
+        "keyword.other.create.sql",
+        "keyword.other.data-integrity.sql",
+        "keyword.other.alias.sql"
+      ],
+      "settings": {
+        "foreground": "#c78500"
+      }
+    },
+    {
+      "name": "Argentina - SQL Functions",
+      "scope": [
+        "support.function.aggregate.sql",
+        "support.function.string.sql",
+        "support.function.scalar.sql"
+      ],
+      "settings": {
+        "foreground": "#1f7ec4"
+      }
+    },
+    {
+      "name": "Argentina - SQL Types",
+      "scope": [
+        "storage.type.sql",
+        "support.type.sql"
+      ],
+      "settings": {
+        "foreground": "#0288b8"
+      }
+    },
+    {
+      "name": "Argentina - XML Tags",
+      "scope": [
+        "entity.name.tag.xml",
+        "entity.name.tag.localname.xml"
+      ],
+      "settings": {
+        "foreground": "#1f7ec4"
+      }
+    },
+    {
+      "name": "Argentina - XML Attributes",
+      "scope": [
+        "entity.other.attribute-name.xml",
+        "entity.other.attribute-name.localname.xml"
+      ],
+      "settings": {
+        "foreground": "#0277c0"
+      }
+    },
+    {
+      "name": "Argentina - XML Namespace",
+      "scope": [
+        "entity.name.tag.namespace.xml",
+        "entity.other.attribute-name.namespace.xml"
+      ],
+      "settings": {
+        "foreground": "#c78500"
+      }
+    },
+    {
+      "name": "Argentina - YAML Keys",
+      "scope": [
+        "entity.name.tag.yaml",
+        "support.type.property-name.yaml"
+      ],
+      "settings": {
+        "foreground": "#2a6fd8"
+      }
+    },
+    {
+      "name": "Argentina - YAML Anchors",
+      "scope": [
+        "entity.name.type.anchor.yaml",
+        "punctuation.definition.anchor.yaml",
+        "variable.other.alias.yaml",
+        "keyword.control.flow.alias.yaml"
+      ],
+      "settings": {
+        "foreground": "#c78500"
+      }
+    },
+    {
+      "name": "Argentina - TOML Keys",
+      "scope": [
+        "keyword.key.toml",
+        "support.type.property-name.toml"
+      ],
+      "settings": {
+        "foreground": "#2a6fd8"
+      }
+    },
+    {
+      "name": "Argentina - TOML Tables",
+      "scope": [
+        "entity.other.attribute-name.table.toml",
+        "support.type.property-name.table.toml",
+        "entity.other.attribute-name.table.array.toml"
+      ],
+      "settings": {
+        "foreground": "#1f7ec4"
+      }
+    },
+    {
+      "name": "Argentina - JSON Keys Level 1",
+      "scope": [
+        "support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#1f7ec4"
+      }
+    },
+    {
+      "name": "Argentina - JSON Keys Level 2",
+      "scope": [
+        "meta.structure.dictionary.value.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#c78500"
+      }
+    },
+    {
+      "name": "Argentina - JSON Keys Level 3",
+      "scope": [
+        "meta.structure.dictionary.value.json meta.structure.dictionary.value.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#0288b8"
+      }
+    },
+    {
+      "name": "Argentina - JSON Keys Level 4",
+      "scope": [
+        "meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#b06a00"
+      }
+    },
+    {
+      "name": "Argentina - JSON Keys Level 5",
+      "scope": [
+        "meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#2a6fd8"
+      }
+    },
+    {
+      "name": "Argentina - Markdown H1",
+      "scope": [
+        "heading.1.markdown entity.name.section.markdown",
+        "heading.1.markdown punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#1f7ec4",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Argentina - Markdown H2",
+      "scope": [
+        "heading.2.markdown entity.name.section.markdown",
+        "heading.2.markdown punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#c78500",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Argentina - Markdown H3",
+      "scope": [
+        "heading.3.markdown entity.name.section.markdown",
+        "heading.3.markdown punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#0288b8",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Argentina - Markdown H4",
+      "scope": [
+        "heading.4.markdown entity.name.section.markdown",
+        "heading.4.markdown punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#0e8a6e",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Argentina - Markdown H5",
+      "scope": [
+        "heading.5.markdown entity.name.section.markdown",
+        "heading.5.markdown punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#b06a00",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Argentina - Markdown H6",
+      "scope": [
+        "heading.6.markdown entity.name.section.markdown",
+        "heading.6.markdown punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#4a4fd8",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Argentina - Markdown Bold",
+      "scope": [
+        "markup.bold.markdown",
+        "punctuation.definition.bold.markdown"
+      ],
+      "settings": {
+        "foreground": "#c78500",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Argentina - Markdown Italic",
+      "scope": [
+        "markup.italic.markdown",
+        "punctuation.definition.italic.markdown"
+      ],
+      "settings": {
+        "foreground": "#0277c0",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Argentina - Markdown Links",
+      "scope": [
+        "markup.underline.link.markdown",
+        "string.other.link.title.markdown",
+        "string.other.link.description.markdown"
+      ],
+      "settings": {
+        "foreground": "#0e8a6e"
+      }
+    },
+    {
+      "name": "Argentina - Markdown Code",
+      "scope": [
+        "markup.inline.raw.string.markdown",
+        "markup.fenced_code.block.markdown"
+      ],
+      "settings": {
+        "foreground": "#0288b8"
+      }
+    },
+    {
+      "name": "Argentina - Markdown Lists",
+      "scope": [
+        "punctuation.definition.list.begin.markdown"
+      ],
+      "settings": {
+        "foreground": "#c78500"
+      }
+    },
+    {
+      "name": "Argentina - Markdown Quotes",
+      "scope": [
+        "markup.quote.markdown",
+        "punctuation.definition.quote.begin.markdown"
+      ],
+      "settings": {
+        "foreground": "#4a4fd8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Argentina - Python Decorators",
+      "scope": [
+        "entity.name.function.decorator.python",
+        "meta.function.decorator.python",
+        "punctuation.definition.decorator.python"
+      ],
+      "settings": {
+        "foreground": "#c78500"
+      }
+    },
+    {
+      "name": "Argentina - Python Magic Methods",
+      "scope": [
+        "support.function.magic.python",
+        "support.variable.magic.python"
+      ],
+      "settings": {
+        "foreground": "#8a6a00"
+      }
+    },
+    {
+      "name": "Argentina - Python F-Strings",
+      "scope": [
+        "meta.fstring.python",
+        "storage.type.format.python"
+      ],
+      "settings": {
+        "foreground": "#0e8a6e"
+      }
+    },
+    {
+      "name": "Argentina - Rust Lifetimes",
+      "scope": [
+        "punctuation.definition.lifetime.rust",
+        "entity.name.type.lifetime.rust",
+        "storage.modifier.lifetime.rust"
+      ],
+      "settings": {
+        "foreground": "#8a6a00"
+      }
+    },
+    {
+      "name": "Argentina - Rust Macros",
+      "scope": [
+        "entity.name.function.macro.rust",
+        "meta.macro.rust",
+        "support.function.macro.rust"
+      ],
+      "settings": {
+        "foreground": "#c78500"
+      }
+    },
+    {
+      "name": "Argentina - Rust Attributes",
+      "scope": [
+        "meta.attribute.rust",
+        "punctuation.definition.attribute.rust",
+        "punctuation.brackets.attribute.rust"
+      ],
+      "settings": {
+        "foreground": "#4a4fd8"
+      }
+    },
+    {
+      "name": "Argentina - Go Package",
+      "scope": [
+        "entity.name.package.go"
+      ],
+      "settings": {
+        "foreground": "#0288b8"
+      }
+    },
+    {
+      "name": "Argentina - Go Interface",
+      "scope": [
+        "entity.name.type.interface.go"
+      ],
+      "settings": {
+        "foreground": "#2a6fd8"
+      }
+    },
+    {
+      "name": "Argentina - PHP Variables",
+      "scope": [
+        "variable.other.php",
+        "punctuation.definition.variable.php"
+      ],
+      "settings": {
+        "foreground": "#2a6fd8"
+      }
+    },
+    {
+      "name": "Argentina - PHP Class",
+      "scope": [
+        "support.class.php",
+        "entity.name.type.class.php"
+      ],
+      "settings": {
+        "foreground": "#0288b8"
+      }
+    },
+    {
+      "name": "Argentina - Shell Variables",
+      "scope": [
+        "variable.other.normal.shell",
+        "variable.other.special.shell",
+        "variable.other.positional.shell",
+        "punctuation.definition.variable.shell"
+      ],
+      "settings": {
+        "foreground": "#2a6fd8"
+      }
+    },
+    {
+      "name": "Argentina - Shell Commands",
+      "scope": [
+        "support.function.builtin.shell",
+        "entity.name.command.shell"
+      ],
+      "settings": {
+        "foreground": "#1f7ec4"
+      }
+    },
+    {
+      "name": "Argentina - Dockerfile Instructions",
+      "scope": [
+        "keyword.other.special-method.dockerfile",
+        "keyword.control.dockerfile"
+      ],
+      "settings": {
+        "foreground": "#c78500"
+      }
+    },
+    {
+      "name": "Argentina - GraphQL Types",
+      "scope": [
+        "entity.name.type.graphql",
+        "support.type.graphql"
+      ],
+      "settings": {
+        "foreground": "#0288b8"
+      }
+    },
+    {
+      "name": "Argentina - GraphQL Fields",
+      "scope": [
+        "variable.graphql",
+        "entity.name.fragment.graphql"
+      ],
+      "settings": {
+        "foreground": "#2a6fd8"
+      }
+    },
+    {
+      "name": "Argentina - GraphQL Directives",
+      "scope": [
+        "entity.name.function.directive.graphql",
+        "punctuation.definition.directive.graphql"
+      ],
+      "settings": {
+        "foreground": "#c78500"
+      }
+    },
+    {
+      "name": "Argentina - Prisma Models",
+      "scope": [
+        "entity.name.type.model.prisma",
+        "entity.name.type.enum.prisma"
+      ],
+      "settings": {
+        "foreground": "#0288b8"
+      }
+    },
+    {
+      "name": "Argentina - Prisma Fields",
+      "scope": [
+        "variable.other.member.prisma",
+        "entity.name.field.prisma"
+      ],
+      "settings": {
+        "foreground": "#2a6fd8"
+      }
+    },
+    {
+      "name": "Argentina - Prisma Attributes",
+      "scope": [
+        "entity.name.function.attribute.prisma",
+        "punctuation.definition.attribute.prisma"
+      ],
+      "settings": {
+        "foreground": "#c78500"
+      }
+    }
+  ]
+}

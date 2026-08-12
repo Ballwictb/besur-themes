@@ -62,6 +62,10 @@ Built on a cyberpunk-inspired palette, it covers everything from JavaScript to S
 
 ![BESUR Argentina theme preview](https://github.com/Ballwictb/besur-themes/blob/main/web/images/examples/besur_argentina.png?raw=true)
 
+**BESUR Zen**
+
+![BESUR Zen theme preview](https://github.com/Ballwictb/besur-themes/blob/main/web/images/examples/besur_zen.png?raw=true)
+
 ---
 
 ## Color Palette

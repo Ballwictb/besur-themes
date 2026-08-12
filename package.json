@@ -12,8 +12,8 @@
   "categories": [
     "Themes"
   ],
-  "description": "Vibrant color themes — BESUR, Soft, Light, Barca, Ocean, Rainbow, Spain & Argentina — with extended language support: JS/TS, Python, Rust, Go, PHP, SQL, XML, YAML, TOML, Markdown, Bash, and more.",
-  "version": "1.0.14",
+  "description": "Vibrant color themes — BESUR, Soft, Light, Barca, Ocean, Rainbow, Spain, Argentina & Zen — with extended language support: JS/TS, Python, Rust, Go, PHP, SQL, XML, YAML, TOML, Markdown, Bash, and more.",
+  "version": "1.0.15",
   "icon": "icon.png",
   "keywords": [
     "neon",
@@ -41,7 +41,10 @@
     "spain",
     "españa",
     "argentina",
-    "flag"
+    "flag",
+    "zen",
+    "minimal",
+    "focus"
   ],
   "galleryBanner": {
     "color": "#0e141a",
@@ -51,7 +54,7 @@
   "bugs": {
     "url": "https://github.com/Ballwictb/besur-themes/issues"
   },
-  "homepage": "https://besur.site",
+  "homepage": "https://besur.site/web/",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -94,8 +97,13 @@
       },
       {
         "label": "BESUR Argentina",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs",
         "path": "./themes/besur-argentina-color-theme.json"
+      },
+      {
+        "label": "BESUR Zen",
+        "uiTheme": "vs-dark",
+        "path": "./themes/besur-zen-color-theme.json"
       }
     ]
   }

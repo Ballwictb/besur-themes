@@ -24,6 +24,7 @@ Built on a cyberpunk-inspired palette, it covers everything from JavaScript to S
 | **BESUR Rainbow** | Never believed in leprechauns? This theme is your treasure at the end of the rainbow                                |
 | **BESUR Spain** | Red, gold, and pure energy. This theme feels like Spain                                |
 | **BESUR Argentina** | Sky blue, white, and a little magic from the south                                |
+| **BESUR Zen** | A theme designed to disappear                                |
 
 ---
 
@@ -60,6 +61,10 @@ Built on a cyberpunk-inspired palette, it covers everything from JavaScript to S
 **BESUR Argentina**
 
 ![BESUR Argentina theme preview](https://github.com/Ballwictb/besur-themes/blob/main/web/images/examples/besur_argentina.png?raw=true)
+
+**BESUR Zen**
+
+![BESUR Zen theme preview](https://github.com/Ballwictb/besur-themes/blob/main/web/images/examples/besur_zen.png?raw=true)
 
 ---
 

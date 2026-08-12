@@ -19,10 +19,11 @@ const TRANSLATIONS = {
             { name: "BESUR Soft", desc: "Más suave. Para sesiones largas." },
             { name: "BESUR Light", desc: "Mismo color. Fondo blanco." },
             { name: "BESUR Barca", desc: "Inspirado en los colores de FC Barcelona." },
-            { name: "BESUR Ocean", desc: "¿Te encanta el azul? Este es tu tema" },
-            { name: "BESUR Rainbow", desc: "¿Nunca has creído en los duendes? Este tema es tu tesoro al final del arcoíris" },
-            { name: "BESUR Spain", desc: "Rojo, dorado y energía pura. Este tema evoca a España" },
-            { name: "BESUR Argentina", desc: "Azul cielo, blanco y un poco de magia del sur" },
+            { name: "BESUR Ocean", desc: "¿Te encanta el azul? Este es tu tema." },
+            { name: "BESUR Rainbow", desc: "¿Nunca has creído en los duendes? Este tema es tu tesoro al final del arcoíris." },
+            { name: "BESUR Spain", desc: "Rojo, dorado y energía pura. Este tema evoca a España." },
+            { name: "BESUR Argentina", desc: "Azul cielo, blanco y un poco de magia del sur." },
+            { name: "BESUR Zen", desc: "Un tema diseñado para desaparecer." },
         ],
     },
     en: {
@@ -43,9 +44,10 @@ const TRANSLATIONS = {
             { name: "BESUR Light", desc: "Same colors. White background." },
             { name: "BESUR Barca", desc: "Inspired by FC Barcelona's colors." },
             { name: "BESUR Ocean", desc: "Love blue? This is your theme" },
-            { name: "BESUR Rainbow", desc: "Never believed in leprechauns? This theme is your treasure at the end of the rainbow" },
-            { name: "BESUR Spain", desc: "Red, gold, and pure energy. This theme feels like Spain" },
-            { name: "BESUR Argentina", desc: "Sky blue, white, and a little magic from the south" },
+            { name: "BESUR Rainbow", desc: "Never believed in leprechauns? This theme is your treasure at the end of the rainbow." },
+            { name: "BESUR Spain", desc: "Red, gold, and pure energy. This theme feels like Spain." },
+            { name: "BESUR Argentina", desc: "Sky blue, white, and a little magic from the south." },
+            { name: "BESUR Zen", desc: "A theme designed to disappear." },
         ],
     },
 }
@@ -60,6 +62,7 @@ const THEME_COLORS = {
     "besur-rainbow": { bg: "#0d0d14", surface: "#1a1a2e", comment: "#8888aa", keyword: "#ff8800", string: "#00ff88", fn: "#ff3366", num: "#ffff00", text: "#f0f0f5" },
     "besur-spain": { bg: "#1a0e0e", surface: "#2a1010", comment: "#a0806acc", keyword: "#ffc400", string: "#d4e157", fn: "#ff2e43", num: "#ff9100", text: "#fff3e0" },
     "besur-argentina": { bg: "#eef7ff", surface: "#dceef8", comment: "#6a8aa8", keyword: "#c78500", string: "#0e8a6e", fn: "#1f7ec4", num: "#b06a00", text: "#0d2438" },
+    "besur-zen": { bg: "#0E1010", surface: "#151717", comment: "#5A5F5C", keyword: "#C6FF3D", string: "#A9AEAB", fn: "#DDE2DF", num: "#B6A36C", text: "#B8BDBA" },
 }
 
 // ── code snippets ──────────────────────────────────────────────────────────────
